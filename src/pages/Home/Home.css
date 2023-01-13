@@ -1,0 +1,29 @@
+.Home{
+    direction: rtl;
+}
+html, body {
+    height: 100%;
+ }
+
+.container{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    right: -5%;
+} 
+
+img{
+    position:relative;
+    height: 20%;
+    width: 100%;
+    filter: brightness(50%);
+    z-index: 1;
+}
+
+.description{
+    position:absolute;
+    top:20%;
+    color: beige;
+    z-index: 2;
+    
+}
