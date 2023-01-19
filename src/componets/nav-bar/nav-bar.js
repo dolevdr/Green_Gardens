@@ -7,27 +7,27 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 function NavBar() {
   return (
     <div>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" fixed="top" className="shadow">
         <Container>
           {/* add navigations */}
-          <Navbar.Brand href="http://localhost:3000/">לוגו</Navbar.Brand>
+          <Navbar.Brand href="/">לוגו</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav
               style={{ width: "100%" }}
               className="me-auto justify-content-end"
             >
-              <Nav.Link href="http://localhost:3000/">בית</Nav.Link>
-              <Nav.Link href="http://localhost:3000/about">אודות</Nav.Link>
+              <Nav.Link href="/">בית</Nav.Link>
+              <Nav.Link href="/about">אודות</Nav.Link>
               <NavDropdown title="פרוייקטים" id="basic-nav-dropdown">
                 {/* all projects  */}
-                <NavDropdown.Item href="#action/3.1">
+                <NavDropdown.Item href="/project/Geulim">
                   הגאולים 15
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="/project/Meshahrerim">
                    התחדשות עירונית - המשחררים
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item href="/project/Haalia">
                   התחדשות עירונית - העלייה
                 </NavDropdown.Item>
                 {/* <NavDropdown.Divider />

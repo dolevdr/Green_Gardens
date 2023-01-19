@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
+import Project from "./pages/Project/Project";
 
 const Routing = () => {
   return (
@@ -10,6 +11,9 @@ const Routing = () => {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/project/Geulim" element={<Project name="גאולים 15" text="הפרויקט נוסד..." />} />
+      <Route path="/project/Meshahrerim" element={<Project name="התחדשות עירונית - המשחררים" />} />
+      <Route path="/project/Haalia" element={<Project name="התחדשות עירונית - העליה"/>} />
     </Routes>
   );
 };

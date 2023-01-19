@@ -3,12 +3,9 @@ import "./Contact.css";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import emailjs from '@emailjs/browser';
-// import axios from "axios";
 
 const Contact = () => {
-  // const [name, setName] = useState("");
-  // const [phone, setPhone] = useState("");
-  // const [proj, setProj] = useState("");
+  
   const [submited, setSubmit] = useState(false);
 
   const form = useRef();
@@ -24,27 +21,12 @@ const Contact = () => {
           console.log(error.text);
       });
   };
-  // const sumbitForm = async () => {
-  //   setSubmit(true);
-  //   // await axios.post("http://localhost:3001/contact", {
-  //   //   name: name,
-  //   //   phone: phone,
-  //   //   proj: proj,
-  //   // });
-  // };
-  // const handleName = (v) => {
-  //   setName(v);
-  // };
-  // const handlePhone = (v) => {
-  //   setPhone(v);
-  // };
-  // const handleProj = (v) => {
-  //   setProj(v);
-  // };
+
   return (
-    <div className="formText row">
+    <div style={{direction:"rtl"}} className="formText row">
       {!submited ? (
         <Form ref={form} onSubmit={sendEmail}>
+          <h1>צור קשר</h1>
           <Form.Group className="mb-3 col-4" controlId="formBasicEmail">
             <Form.Label >שם מלא:</Form.Label>
             <Form.Control

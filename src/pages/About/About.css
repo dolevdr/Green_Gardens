@@ -1,0 +1,16 @@
+.col-5{
+    float: right;
+    margin-bottom: 50px;
+    margin-left: 5px;
+}
+
+.text{
+    float: left;
+    clear: both;
+}
+
+.owners{
+    width: 100%;
+    float: right;
+    clear: both;
+}
