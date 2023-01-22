@@ -1,8 +1,17 @@
 .headlines{
     margin-bottom: 50px;
+    float: right;
+    clear: both;
+    width: 100%;
 }
 
 .page{
     float: right;
 }
 
+.depFloat{
+    float: right;
+    clear: left;
+    margin: 20px;
+    height: 300px;
+}

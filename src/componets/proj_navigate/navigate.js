@@ -10,6 +10,7 @@ const Navigate = (props) => {
           style={{ display: "block"}}
           className="border border-black"
           href={"#" + (ind + 1)}
+          key={ind}
         >
           {" "}
           {val}{" "}
