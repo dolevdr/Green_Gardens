@@ -11,9 +11,10 @@ const Routing = () => {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/project/Green_Graden" element={<Project name="גנים ירוקים" text="הפרויקט נוסד..."/>} />
       <Route path="/project/Geulim" element={<Project name="גאולים 15" text="הפרויקט נוסד..." />} />
-      <Route path="/project/Meshahrerim" element={<Project name="התחדשות עירונית - המשחררים" />} />
-      <Route path="/project/Haalia" element={<Project name="התחדשות עירונית - העליה"/>} />
+      <Route path="/project/Meshahrerim" element={<Project name="התחדשות עירונית - המשחררים" text="הפרויקט נוסד..." />} />
+      <Route path="/project/Haalia" element={<Project name="התחדשות עירונית - העליה" text="הפרויקט נוסד..."/>} />
     </Routes>
   );
 };

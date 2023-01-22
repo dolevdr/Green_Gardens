@@ -24,11 +24,6 @@ const About = () => {
       </div>
       {/* Meir */}
       <div className="owners">
-        <div className="col-6">
-          <h1>מאיר בן חמו</h1>
-          <p>(טקסט על מאיר)</p>
-        </div>
-        <div className="col-10" style={{direction:'ltr'}}>(תמונה)</div>
       </div>
 
       {/* Yossi */}
@@ -39,6 +34,11 @@ const About = () => {
         </div>
         <div  className="col-10" style={{direction:'ltr'}}>(תמונה)</div>
       </div>
+        <div className="col-6">
+          <h1>מאיר בן חמו</h1>
+          <p>(טקסט על מאיר)</p>
+        </div>
+        <div className="col-10" style={{direction:'ltr'}}>(תמונה)</div>
     </div>
   );
 };

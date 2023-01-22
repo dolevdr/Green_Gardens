@@ -17,15 +17,17 @@ function NavBar() {
               style={{ width: "100%" }}
               className="me-auto justify-content-end"
             >
-              <Nav.Link href="/">בית</Nav.Link>
-              <Nav.Link href="/about">אודות</Nav.Link>
+              <Nav.Link href="http://localhost:3000/contact">צור קשר</Nav.Link>
               <NavDropdown title="פרוייקטים" id="basic-nav-dropdown">
                 {/* all projects  */}
+                <NavDropdown.Item href="/project/Green_Graden">
+                  גנים ירוקים
+                </NavDropdown.Item>
                 <NavDropdown.Item href="/project/Geulim">
                   הגאולים 15
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/project/Meshahrerim">
-                   התחדשות עירונית - המשחררים
+                  התחדשות עירונית - המשחררים
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/project/Haalia">
                   התחדשות עירונית - העלייה
@@ -35,7 +37,8 @@ function NavBar() {
                   Separated link
                 </NavDropdown.Item> */}
               </NavDropdown>
-              <Nav.Link href="http://localhost:3000/contact">צור קשר</Nav.Link>
+              <Nav.Link href="/about">אודות</Nav.Link>
+              <Nav.Link href="/">בית</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
