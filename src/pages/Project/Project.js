@@ -12,6 +12,7 @@ import FiveEP from "../../sources/5 Rooms E - Penthouse + Pool.jpeg";
 import FiveFP from "../../sources/5 Rooms F - Penthouse + Pool.jpeg";
 import SixDP from "../../sources/6 Rooms D - Penthouse.jpeg";
 import { BsFillHouseFill, BsDoorOpenFill } from "react-icons/bs";
+import Specification from "../../componets/specification/specification";
 
 
 const Project = (props) => {
@@ -63,7 +64,10 @@ const Project = (props) => {
         <div className="headlines" id="2">
           <h1>מפרט</h1>
           <hr />
-          <p>מפרט</p>
+          {props.name === "גנים ירוקים" &&
+            <Specification head='כללי' list={['חניה בטאבו', 'חימום רצפתי', 'עמדת טעינה לרכב חשמלי']}/>
+
+          }
         </div>
         <div className="headlines" id="3">
           <h1>דגמים</h1>
