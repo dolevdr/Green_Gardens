@@ -7,7 +7,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 function NavBar() {
   return (
     <div>
-      <Navbar bg="light" expand="lg" fixed="top" className="shadow">
+      <Navbar bg="light" expand="lg" fixed="top" className="shadow" >
         <Container>
           {/* add navigations */}
           <Navbar.Brand href="/">לוגו</Navbar.Brand>

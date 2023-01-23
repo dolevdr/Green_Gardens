@@ -10,7 +10,7 @@
     width: 100%;
     height: 180px;
 }
-img:hover{
+.Pic:hover{
     filter: brightness(30%);
 }
 .type{
