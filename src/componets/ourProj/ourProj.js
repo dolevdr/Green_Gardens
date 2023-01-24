@@ -5,17 +5,17 @@ const OurProj = (props) => {
   return (
     <div className="shadow p" dir="rtl">
       <div className="col-8 sh">
-        <img style={{position:'relative', top:'0px', width:'80%', height:'200px'}}
+        <img style={{position:'relative', top:'0px', width:'80%', height:'300px'}}
           src={props.img}
           alt="nothing"
         />
       </div>
-      <div className='col-3 sh'>
-        <img className="logo" style={{position:'relative', top:'0px', width:'100px', height:'100px'}} src={props.logo} alt="" />
+      <div className='col-3 sh text-center'>
+        <img className="logo" style={{position:'relative', top:'0px', width:'150px', height:'150px'}} src={props.logo} alt="" />
         <br />
         <h4>{props.name}</h4>
         <h5>{props.address}</h5>
-        <Button href="/project/Green_Graden" className="b" variant="outline-warning">לפרוייקט</Button>
+        <Button href={props.loc} className="b" variant="outline-warning">לפרוייקט</Button>
       </div>
     </div>
   );

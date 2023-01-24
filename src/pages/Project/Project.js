@@ -18,6 +18,7 @@ import floor from "../../sources/floor.jpeg";
 // import g_y from "../../sources/Ganim Yerukim.jpeg";
 import p_h from "../../sources/penthouse.jpeg";
 import row from "../../sources/row.jpeg";
+import loc from "../../sources/location.jpeg";
 
 
 
@@ -233,7 +234,7 @@ const Project = (props) => {
         <div className="headlines" id="6">
           <h1>מיקום</h1>
           <hr />
-          <p>תמונת מיקום</p>
+          <div className="text-center"><img  style={{position:'relative', top:'-10px', width:'100%'}} src={loc} alt='nothing'/></div>
         </div>
       </div>
     </div>
