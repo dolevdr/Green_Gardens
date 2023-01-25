@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 const Navigate = (props) => {
   return (
-    <div id='n' style={{ direction: "rtl", width:'100%', height:'600px' }}>
+    <div id='n' style={{ direction: "rtl", width:'100%', height:window.innerHeight }}>
       {props.categories.map((val, ind) => (
         <Button size="sm" variant="outline-dark"
           style={{ display: "block"}}

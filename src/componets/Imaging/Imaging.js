@@ -14,7 +14,7 @@ const Imaging = (props) => {
       >
         {
             props.images.map((v,i)=>(
-                <SwiperSlide style={{position:'relative', top:'-300px'}} key={i}><img style={{width:'100%' }} src={v} alt='no img'/></SwiperSlide>
+                <SwiperSlide style={{position:'relative', top:'-10%'}} key={i}><img style={{width:'100%' }} src={v} alt='no img'/></SwiperSlide>
             ))
         }
       </Swiper>

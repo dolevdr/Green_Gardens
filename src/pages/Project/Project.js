@@ -21,7 +21,6 @@ import row from "../../sources/row.jpeg";
 import loc from "../../sources/location.jpeg";
 
 
-
 const Project = (props) => {
   const [isFixed, setIsFixed] = useState(false);
   const ref = useRef(null);
@@ -45,9 +44,9 @@ const Project = (props) => {
       <div
         className="page"
         ref={ref}
-        style={{ position: isFixed ? "fixed" : "static" }}
+        style={{ position: isFixed ? "fixed" : "static" , width:'11%', height:window.innerHeight}}
       >
-        <Navigate
+        <Navigate 
           categories={[
             "הסבר על הפרוייקט",
             "מפרט",
@@ -60,7 +59,7 @@ const Project = (props) => {
       </div>
       <div
         className="col-10 page"
-        style={{ position: "relative", right: !isFixed ? "20px" : "12%" }}
+        style={{ position: "relative", right: !isFixed ? "2%" : "13%" }}
       >
         <h1 className="text-center">{props.name}</h1>
         <div className="headlines" id="1">
@@ -140,6 +139,7 @@ const Project = (props) => {
                   house="74 מטרים"
                   porch="16 מטרים"
                 />
+                
               </div>
               <div className="depFloat">
                 <Department

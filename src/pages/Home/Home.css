@@ -12,15 +12,10 @@ html, body {
     right: -5%;
 } 
 
-img{
-    position:relative;
-    /* filter: brightness(50%); */
-    width:60%;
-    top:300px;
-}
+
 
 .description{
-    position:absolute;
-    top:20%;
+    position:relative;
+    top:10%;
     
 }
