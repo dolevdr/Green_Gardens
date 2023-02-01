@@ -4,3 +4,13 @@
     right: 30%;
     top: 70px;
 }
+
+.container_contact{
+    height:100vh;
+}
+
+.after_submit{
+    position:relative;
+    right:7%;
+    top:50px;
+}

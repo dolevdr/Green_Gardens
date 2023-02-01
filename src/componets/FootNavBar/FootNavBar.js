@@ -3,9 +3,9 @@ import "./FootNavBar.css";
 const FootNavBar = () => {
   return (
     <div dir="rtl" >
-      <div className="row col-12 shadow-lg mb-5 rounded" style={{position:'relative', marginTop:'10%', backgroundColor:'lightgrey', width:'100%', float:'left'}}>
+      <div className="row col-12 shadow-lg mb-5 rounded contain_navbar" >
 
-        <div className="office col-4" style={{marginTop:'2%'}}>
+        <div className="office col-4 body_foot" >
           <p>
             <u>המשרד שלנו</u>:{" "}
           </p>
@@ -21,7 +21,7 @@ const FootNavBar = () => {
           </p>
         </div>
         <div className="col-4"></div>
-        <div className="col-4" style={{marginTop:'5%'}} >
+        <div className="col-4 logo_img" >
           <p>Logo</p>
         </div>
       </div>

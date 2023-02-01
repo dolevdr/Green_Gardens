@@ -10,8 +10,7 @@ const Department = (props) => {
   return (
     <div className="shadow Cont text-center">
       <div
-        className="text-center"
-        style={{ filter: `brightness(40%)`, cursor: "pointer" }}
+        className="text-center pic_open"
       >
         <img
           className="Pic"
@@ -24,7 +23,7 @@ const Department = (props) => {
         <b>{props.type}</b>
       </div>
       <div className="text-center">
-        <h1 style={{ fontSize: "20px", position: "relative", top: "-50px" }}>
+        <h1 className="body_dep">
           {props.name}
         </h1>
         <div className="data">
@@ -43,11 +42,11 @@ const Department = (props) => {
               <Modal.Title dir="rtl" className="text-right col-11">תוכנית העמדה - {props.type}</Modal.Title>
             </Modal.Header>
             <Modal.Body >
-              <img className="text-center" style={{position:'relative', top:'0px', width:'100%'}} src={props.pic} alt="nothing" />
+              <img className="text-center img_modal"  src={props.pic} alt="nothing" />
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={() => setIsOpen(false)}>
-                Close
+                סגור
               </Button>
             </Modal.Footer>
           </Modal>

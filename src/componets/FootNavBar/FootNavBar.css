@@ -1,0 +1,11 @@
+.contain_navbar{
+    position:relative;
+    margin-top:10%;
+    background-color:lightgrey;
+    width:100%;
+    float:left;
+}
+
+.body_foot, .logo_img{
+    margin-top:2%;
+}

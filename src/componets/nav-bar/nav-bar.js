@@ -14,12 +14,10 @@ function NavBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav
-              style={{ width: "100%" }}
-              className="me-auto justify-content-end"
+              className="me-auto justify-content-end nav_bootstrap"
             >
-              <Nav.Link href="http://localhost:3000/contact">צור קשר</Nav.Link>
+              <Nav.Link href="/contact">צור קשר</Nav.Link>
               <NavDropdown title="פרוייקטים" id="basic-nav-dropdown">
-                {/* all projects  */}
                 <NavDropdown.Item href="/project/Green_Graden">
                   גנים ירוקים
                 </NavDropdown.Item>
@@ -32,10 +30,6 @@ function NavBar() {
                 <NavDropdown.Item href="/project/Haalia">
                   התחדשות עירונית - העלייה
                 </NavDropdown.Item>
-                {/* <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item> */}
               </NavDropdown>
               <Nav.Link href="/about">אודות</Nav.Link>
               <Nav.Link href="/">בית</Nav.Link>

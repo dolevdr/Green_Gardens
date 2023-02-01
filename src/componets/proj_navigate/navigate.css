@@ -3,3 +3,11 @@
     vertical-align: middle;
     line-height: 70px;
 }
+
+#n{
+    width:100%;
+}
+
+.button_bootstrap{
+    display: block;
+}

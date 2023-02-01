@@ -1,0 +1,17 @@
+.display_list{
+    cursor:pointer;
+}
+
+.hr_style{
+    border-top: 1px dotted;
+}
+
+.list_item{
+    display:flex;
+    position: relative;
+    right: 40px;
+}
+
+.span_style{
+    margin:10px;
+}

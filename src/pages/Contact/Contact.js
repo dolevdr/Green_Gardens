@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <div style={{direction:"rtl", height:'100vh'}} className="formText row">
+    <div dir="rtl" className="formText row container_contact">
       {!submited ? (
         <Form ref={form} onSubmit={sendEmail}>
           <h1>צור קשר</h1>
@@ -56,7 +56,7 @@ const Contact = () => {
           </Form.Group>
         </Form>
       ) : (
-        <div style={{ position:'relative', right:'7%', top:'50px'}}>
+        <div className="after_submit">
           <h1>
             <b>תודה על יצירת הקשר</b>
           </h1>

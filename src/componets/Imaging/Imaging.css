@@ -1,0 +1,8 @@
+.contain_imaging, .swiper_img{
+    width:100%;
+}
+
+.swiper{
+    position:relative;
+    top:-10%;
+}

@@ -6,7 +6,7 @@ import "swiper/swiper-bundle.min.css";
 const Imaging = (props) => {
     
   return (
-    <div className="text-center" style={{width:'100%'}}>
+    <div className="text-center contain_imaging" >
       <Swiper 
         navigation={true}
         pagination={{type: "fraction"}}
@@ -14,7 +14,7 @@ const Imaging = (props) => {
       >
         {
             props.images.map((v,i)=>(
-                <SwiperSlide style={{position:'relative', top:'-10%'}} key={i}><img style={{width:'100%' }} src={v} alt='no img'/></SwiperSlide>
+                <SwiperSlide className="swiper" key={i}><img className="swiper_img" src={v} alt='no img'/></SwiperSlide>
             ))
         }
       </Swiper>
