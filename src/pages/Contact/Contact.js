@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <div style={{direction:"rtl"}} className="formText row">
+    <div style={{direction:"rtl", height:'100vh'}} className="formText row">
       {!submited ? (
         <Form ref={form} onSubmit={sendEmail}>
           <h1>צור קשר</h1>

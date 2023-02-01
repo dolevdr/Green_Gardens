@@ -1,6 +1,6 @@
 import Navigate from "../../componets/proj_navigate/navigate";
 import "./Project.css";
-import { useState, useEffect, useRef } from "react";
+// import { useState, useEffect, useRef } from "react";
 import Department from "../../componets/Department/Department";
 import ThreeC from "../../sources/3 Rooms C.jpeg";
 import FourA1 from "../../sources/4 Rooms A1.jpeg";
@@ -15,36 +15,22 @@ import { BsFillHouseFill, BsDoorOpenFill } from "react-icons/bs";
 import Specification from "../../componets/specification/specification";
 import Imaging from "../../componets/Imaging/Imaging";
 import floor from "../../sources/floor.jpeg";
-// import g_y from "../../sources/Ganim Yerukim.jpeg";
 import p_h from "../../sources/penthouse.jpeg";
 import row from "../../sources/row.jpeg";
 import loc from "../../sources/location.jpeg";
+import mabatAl from "../../sources/Mabat Al.jpeg";
+import neighborhood from "../../sources/Neighborhood.jpeg";
+
 
 
 const Project = (props) => {
-  const [isFixed, setIsFixed] = useState(false);
-  const ref = useRef(null);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (ref.current) {
-        setIsFixed(window.pageYOffset > ref.current.offsetTop);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [ref]);
 
   return (
-    <div style={{ direction: "rtl", position: "relative", top: "70px" }}>
+    <div style={{ direction: "rtl", position: "relative", top: "70px" , height:'700vh'}}>
       <div
         className="page"
-        ref={ref}
-        style={{ position: isFixed ? "fixed" : "static" , width:'11%', height:window.innerHeight}}
+        // ref={setFixedDivRef}
+        style={{ position: "sticky", top:'70px' , width:'11%'}}
       >
         <Navigate 
           categories={[
@@ -59,7 +45,7 @@ const Project = (props) => {
       </div>
       <div
         className="col-10 page"
-        style={{ position: "relative", right: !isFixed ? "2%" : "13%" }}
+        style={{ position: "relative", right: "5%" }}
       >
         <h1 className="text-center">{props.name}</h1>
         <div className="headlines" id="1">
@@ -220,14 +206,14 @@ const Project = (props) => {
           <h1>מבט על</h1>
           <hr />
           {props.name==='גנים ירוקים' &&
-            <div className="text-center"><img  style={{position:'relative', top:'-10px', width:'100%'}} src={row} alt='nothing'/></div>
+            <div className="text-center"><img  style={{position:'relative', top:'-10px', width:'100%'}} src={mabatAl} alt='nothing'/></div>
           }
         </div>
         <div className="headlines" id="5">
           <h1>הדמיות</h1>
           <hr />
           {props.name==='גנים ירוקים' &&
-            <Imaging images={[floor, p_h]}/>
+            <Imaging images={[floor, p_h, row, neighborhood]}/>
 
           }
         </div>

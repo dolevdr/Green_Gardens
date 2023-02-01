@@ -12,15 +12,13 @@ const Home = () => {
   const header = ` א.ים ארץ ומלואה נדלן בע"מ (מקבוצת מגדים)`;
 
   return (
-    <div className="Home" style={{height:'800px'}}>
+    <div className="Home" style={{height:'100vh'}}>
       <div className="description">
         <h1>{header}</h1>
         <p style={{ whiteSpace: "pre-line" }}>{description}</p>
       </div>
-      {/* <div style={{height:'100%'}}>
-        <img src={im} alt="nothing" />
-      </div> */}
-      <div className="proj" style={{ position: "relative", top: "20%" }}>
+      
+      <div className="proj" style={{ position: "relative", top: "10%" }}>
         <h1 className="head">הפרוייקטים שלנו</h1>
         <hr />
         <div style={{position: "relative", right: "5%" }}>

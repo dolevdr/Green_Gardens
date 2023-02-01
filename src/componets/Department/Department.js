@@ -40,7 +40,7 @@ const Department = (props) => {
         {isOpen && (
           <Modal show={isOpen} onHide={() => setIsOpen(false)}>
             <Modal.Header closeButton onClick={() => setIsOpen(false)}>
-              <Modal.Title>{props.type}</Modal.Title>
+              <Modal.Title dir="rtl" className="text-right col-11">תוכנית העמדה - {props.type}</Modal.Title>
             </Modal.Header>
             <Modal.Body >
               <img className="text-center" style={{position:'relative', top:'0px', width:'100%'}} src={props.pic} alt="nothing" />
