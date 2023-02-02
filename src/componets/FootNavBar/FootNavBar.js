@@ -1,23 +1,26 @@
+import { contact, contact_val } from "../../constants/contact";
 import "./FootNavBar.css";
 
 const FootNavBar = () => {
+  const office = 'המשרד שלנו';
+
   return (
     <div dir="rtl" >
       <div className="row col-12 shadow-lg mb-5 rounded contain_navbar" >
 
         <div className="office col-4 body_foot" >
           <p>
-            <u>המשרד שלנו</u>:{" "}
+            <u>{office}</u>:{" "}
           </p>
           <br />
           <p>
-            <b>כתובת: </b>באר שבע
+            <b>{contact.address}: </b>{contact_val.address}
           </p>
           <p>
-            <b>טלפון: </b>111111111111
+            <b>{contact.phone}: </b>{contact_val.phone}
           </p>
           <p>
-            <b>מייל: </b>benhamomeir@gmail.com
+            <b>{contact.mail}: </b>{contact_val.mail}
           </p>
         </div>
         <div className="col-4"></div>

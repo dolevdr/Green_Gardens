@@ -7,6 +7,13 @@
 
 .page{
     float: right;
+    
+}
+
+.navigate{
+    position: sticky;
+    top:70px;
+    width:11%;
 }
 
 .depFloat{
@@ -14,4 +21,31 @@
     clear: left;
     margin: 20px;
     height: 300px;
+}
+
+.project_container{
+    position: relative;
+    top: 70px;
+    height:700vh;
+}
+
+.subjects{
+    position: relative;
+    right: 5%;
+}
+
+.img_loc{
+    position:relative;
+    top:-10px;
+    width:100%;
+}
+
+.img_above{
+    position: relative;
+    top: -10px;
+    width: 100%;
+}
+
+.home_icon{
+    margin-left: 30px; 
 }

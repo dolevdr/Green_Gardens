@@ -1,0 +1,1 @@
+export const company_name = 'א.ים ארץ ישראל ומלואה (מקבוצת מגדים)'

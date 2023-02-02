@@ -1,5 +1,6 @@
 .Home{
     direction: rtl;
+    height:100vh;
 }
 html, body {
     height: 100%;
@@ -12,10 +13,22 @@ html, body {
     right: -5%;
 } 
 
-
+.description_text{
+    white-space: pre-line;
+}
 
 .description{
     position:relative;
     top:10%;
     
+}
+
+.proj{
+    position: relative;
+    top: 10%;
+}
+
+.allProj{
+    position: relative;
+    right: 5% ;
 }
