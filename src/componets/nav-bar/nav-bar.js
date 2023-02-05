@@ -7,7 +7,7 @@ import {proj_names} from "../../constants/projects";
 
 function NavBar() {
   return (
-    <div>
+    <div >
       <Navbar bg="light" expand="lg" fixed="top" className="shadow" >
         <Container>
           {/* add navigations */}

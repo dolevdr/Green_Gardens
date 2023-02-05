@@ -1,6 +1,6 @@
 import "./Home.css";
 import im from "../../sources/Home.jpeg";
-import logo from "../../sources/logo.jpeg";
+import logo from "../../sources/logo.png";
 import OurProj from "../../componets/ourProj/ourProj";
 import geulim from '../../sources/Geulim.jpeg'
 import meshahrerim from '../../sources/Meshahrerim.jpeg'

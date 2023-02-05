@@ -4,11 +4,11 @@ import Button from 'react-bootstrap/Button';
 
 const Navigate = (props) => {
   return (
-    <div dir="rtl" id='n'>
+    <div dir="rtl" id='n' >
       {props.categories.map((val, ind) => (
         <Button size="sm" variant="outline-dark"
           
-          className="border border-black button_bootstrap"
+          className="border border-success button_bootstrap"
           href={"#" + (ind + 1)}
           key={ind}
         >

@@ -1,14 +1,18 @@
 .contain_navbar{
     position: relative;
-    margin-top:8%;
-    background-color:rgba(211, 211, 211, 0.619);
+    margin-top:5.6%;
+    background-color:#BEBEBE;
     width:100%;
     float:left;
     margin-bottom: 0px;
 }
+body{
+    background-color:rgba(211, 211, 211, 0.619);
+
+}
 
 .navigateFl, .body_foot, .logo_img{
-    margin-top:5%;
+    margin-top:2%;
     width: 33%;
     height: 100%;
 }
@@ -18,6 +22,7 @@
     clear:left;
 }
 
+
 .po{
     cursor: pointer;
     width: 20%;
@@ -26,4 +31,5 @@
 
 .contain_menu{
     width: 100%;
+    
 }

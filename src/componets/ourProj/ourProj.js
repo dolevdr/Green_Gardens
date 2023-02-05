@@ -15,7 +15,7 @@ const OurProj = (props) => {
         <br />
         <h5>{props.name}</h5>
         <h5>{props.address}</h5>
-        <Button href={props.loc} className="b" variant="outline-warning">לפרוייקט</Button>
+        <Button href={props.loc} className="b" variant="outline-success">לפרוייקט</Button>
       </div>
     </div>
   );
