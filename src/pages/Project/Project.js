@@ -154,10 +154,10 @@ const Project = (props) => {
 
   return (
     <div dir="rtl" className="project_container">
-      <div className="page navigate">
+      <div className="page">
         <Navigate categories={subjects} />
       </div>
-      <div className="col-10 page subjects">
+      <div className="col-10 pageLeft">
         <h1 className="text-center">{props.name}</h1>
         <div className="headlines" id="1">
           <h1>{nav_subjects.explanation}</h1>
@@ -180,7 +180,7 @@ const Project = (props) => {
           )}
         </div>
         <div className="headlines" id="3">
-          <h1>{nav_subjects.specification}</h1>
+          <h1>{nav_subjects.imaging}</h1>
           <br />
           <div>
             <BsFillHouseFill /> בית <span className="home_icon"></span>

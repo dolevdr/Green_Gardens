@@ -3,24 +3,21 @@
 }
 
 .p{
-    width:90%;
+    width:100%;
 }
 
 .ourproj_contain{
     width:90%;
-    height:400px;
+    height:300px;
 }
 
 .img_ourproj{
     position:relative;
     top:0px;
     width:80%;
-    height:400px;
+    height:300px;
 }
-.text_ourproj{
-    position:relative;
-    top:10%;
-}
+
 
 .img_logo{
     position:relative;

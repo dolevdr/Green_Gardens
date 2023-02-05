@@ -15,7 +15,7 @@ const Home = () => {
   const address = `באר שבע`;
 
   return (
-    <div className="Home">
+    <div dir="rtl" className="Home">
       <div className="description">
         <h1>{header}</h1>
         <p className="description_text">{description}</p>

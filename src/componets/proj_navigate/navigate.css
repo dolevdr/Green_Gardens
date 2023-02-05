@@ -6,6 +6,8 @@
 
 #n{
     width:100%;
+    position: sticky;
+    top:10%;
 }
 
 .button_bootstrap{

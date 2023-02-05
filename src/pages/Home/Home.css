@@ -1,6 +1,6 @@
 .Home{
-    direction: rtl;
-    height:100vh;
+    position: relative;
+    top:70px;    
 }
 html, body {
     height: 100%;
@@ -31,4 +31,5 @@ html, body {
 .allProj{
     position: relative;
     right: 5% ;
+    height: 100%;
 }

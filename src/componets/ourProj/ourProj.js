@@ -13,7 +13,7 @@ const OurProj = (props) => {
       <div className='col-3 sh text-center text_ourproj'>
         <img className="logo img_logo"  src={props.logo} alt="" />
         <br />
-        <h4>{props.name}</h4>
+        <h5>{props.name}</h5>
         <h5>{props.address}</h5>
         <Button href={props.loc} className="b" variant="outline-warning">לפרוייקט</Button>
       </div>

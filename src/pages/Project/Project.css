@@ -5,16 +5,18 @@
     width: 100%;
 }
 
-.page{
-    float: right;
-    
+body{
+    height: 100%;
 }
 
-.navigate{
-    position: sticky;
-    top:70px;
-    width:11%;
+.page{
+    float: right;
 }
+.pageLeft{
+    float: left;
+    margin-right: 4%;
+}
+
 
 .depFloat{
     float: right;
@@ -24,25 +26,25 @@
 }
 
 .project_container{
-    position: relative;
-    top: 70px;
-    height:700vh;
+    margin-top: 5%;
+    display: flex;
 }
 
 .subjects{
     position: relative;
     right: 5%;
+    height: 100%;
 }
 
 .img_loc{
     position:relative;
-    top:-10px;
+    top:-1%;
     width:100%;
 }
 
 .img_above{
     position: relative;
-    top: -10px;
+    top: -1%;
     width: 100%;
 }
 

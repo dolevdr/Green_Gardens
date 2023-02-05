@@ -1,11 +1,29 @@
 .contain_navbar{
-    position:relative;
-    margin-top:10%;
-    background-color:lightgrey;
+    position: relative;
+    margin-top:8%;
+    background-color:rgba(211, 211, 211, 0.619);
     width:100%;
     float:left;
+    margin-bottom: 0px;
 }
 
-.body_foot, .logo_img{
-    margin-top:2%;
+.navigateFl, .body_foot, .logo_img{
+    margin-top:5%;
+    width: 33%;
+    height: 100%;
+}
+
+.navigateFl{
+    float: right;
+    clear:left;
+}
+
+.po{
+    cursor: pointer;
+    width: 20%;
+    position: relative;
+}
+
+.contain_menu{
+    width: 100%;
 }
