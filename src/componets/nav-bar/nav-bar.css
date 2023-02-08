@@ -8,3 +8,14 @@
 .nav_bootstrap{
     width: 100%;
 }
+
+.image_logo{
+    height: 27px;
+    width: 60px;
+}
+
+.nav_logo{
+    position: relative;
+    right: 30%;
+    font-size: medium;
+}

@@ -67,7 +67,7 @@ const Project = (props) => {
       ],
     },
     {
-      head: "קירמיקה",
+      head: "קרמיקה",
       items: ["ריצוף גרניט פורצלן 80/80", "קרמיקה בקירות 60/120"],
     },
   ];
@@ -222,9 +222,11 @@ const Project = (props) => {
         <div className="headlines" id="6">
           <h1>{nav_subjects.location}</h1>
           <hr />
-          <div className="text-center">
-            <img className="img_loc" src={loc} alt="nothing" />
-          </div>
+          {props.name===name &&
+            <div className="text-center">
+              <img className="img_loc" src={loc} alt="nothing" />
+            </div>
+          }
         </div>
       </div>
     </div>

@@ -2,6 +2,8 @@ import "./ourProj.css";
 import Button from "react-bootstrap/Button";
 
 const OurProj = (props) => {
+ const label = `לפרוייקט`;
+ 
   return (
     <div className="shadow ourproj_contain" dir="rtl">
       <div className="col-8 sh">
@@ -15,7 +17,7 @@ const OurProj = (props) => {
         <br />
         <h5>{props.name}</h5>
         <h5>{props.address}</h5>
-        <Button href={props.loc} className="b" variant="outline-success">לפרוייקט</Button>
+        <Button href={props.loc} className="b" variant="outline-success">{label}</Button>
       </div>
     </div>
   );

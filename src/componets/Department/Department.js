@@ -6,6 +6,7 @@ import { useState } from "react";
 
 const Department = (props) => {
   const [isOpen, setIsOpen] = useState(false);
+  const header = `תוכנית העמדה - ${props.type}`;
 
   return (
     <div className="shadow Cont text-center">
@@ -39,7 +40,7 @@ const Department = (props) => {
         {isOpen && (
           <Modal show={isOpen} onHide={() => setIsOpen(false)}>
             <Modal.Header closeButton onClick={() => setIsOpen(false)}>
-              <Modal.Title dir="rtl" className="text-right col-11">תוכנית העמדה - {props.type}</Modal.Title>
+              <Modal.Title dir="rtl" className="text-right col-11">{header}</Modal.Title>
             </Modal.Header>
             <Modal.Body >
               <img className="text-center img_modal"  src={props.pic} alt="nothing" />

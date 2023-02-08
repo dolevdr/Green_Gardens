@@ -8,7 +8,7 @@ const Navigate = (props) => {
       {props.categories.map((val, ind) => (
         <Button size="sm" variant="outline-dark"
           
-          className="border border-success button_bootstrap"
+          className="border border-info button_bootstrap"
           href={"#" + (ind + 1)}
           key={ind}
         >
