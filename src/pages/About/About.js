@@ -1,55 +1,52 @@
 import "./About.css";
-import {contact, contact_val} from '../../constants/contact';
-import {company_name} from '../../constants/company';
+import { contact, contact_val } from "../../constants/contact";
+import { company_name } from "../../constants/company";
 // import img_bg_about from '../../sources/img_bg_about.jpeg';
 
-
 const About = () => {
-  const meir = 'מאיר בן חמו';
-  const meir_text = `(טקסט על מאיר)`;
-  const yossi = 'יוסי איטח';
-
-  const text = `קבוצת יזמות ובנייה אשר החלה פעילותה לפני למעלה משני עשורים. מיום
-  היווסדה, פעלה הקבוצה בהיקפים נרחבים בתחום הנדל"ן, ההשקעות והמסחר. מיום
-  הקמתה, חרטה הקבוצה על דגלה לבנות, לנהל ולשווק פרויקטים נדלניים
-  במקצועיות ובאיכות ללא פשרות, כאשר בראש ובראשונה עומדת לנגד עיניה
-  שביעות הרצון של הלקוחות.`;
+  const meir = "מאיר בן חמו";
+  // const meir_text = `(טקסט על מאיר)`;
+  const yossi = "יוסי איטח";
+  const yossi_txt = `יוסי איטח, יזם ואיש עסקים, בעל רקורד ניהולי ועסקי עשיר, במסגרת פעילות כיזם נדל"ן במשך למעלה משני עשורים, יזם הוביל וניהל פרויקטים רבים וגדולים למגורים, התחדשות עירונית, מסחר ותעסוקה.`;
+  const meir_txt = `מאיר בן חמו, עו"ד במקצועו, בוגר תואר ראשון במשפטים, תואר ראשון בכלכלה ומינהל עסקים ותואר שני במינהל ומדיניות ציבורית. בעל ניסיון רב בתחום הפיננסי והניהולי. כיהן כסמנכ"ל כספים של רשת בתי הדיור המוגן "משען" במשך 12 שנה, מכהן כדירקטור חיצוני בשתי חברות ציבוריות בתחום הנדל"ן ובתחום הרכב, וכיהן כסגן פקיד שומה ברשות המיסים.`;
+  const text = `א.ים ארץ ומלואה נדל"ן מקבוצת "מגדים" הינה קבוצת יזמות ובנייה אשר החלה פעילותה לפני למעלה משני עשורים.
+  מיום היווסדה פעלה הקבוצה בהיקפים נרחבים בתחום הנדל"ן, ההשקעות והמסחר.
+  מיום הקמתה, חרטה הקבוצה על דגלה לבנות, לנהל ולשווק פרויקטים נדלניים במקצועיות ובאיכות ללא פשרות, כאשר בראש ובראשונה עומדת לנגד עיניה שביעות הרצון של הלקוחות.`;
 
   return (
     <div dir="rtl" className="about_contain">
       <div className="content">
         <h1>{company_name}</h1>
         <div className="text col-12 ">
-          <p className="col-6 flex-child bg_darker rounded-top">{text}<br /><br /></p>
-          <div className="col-5" dir="ltr" >
+          <p className="col-6 flex-child bg_darker rounded-top">
+            {text}
+            <br />
+            <br />
+          </p>
+          <div className="col-5 contact_marg">
             <b>{contact.address}:</b> {contact_val.address}
             <br />
             <b>{contact.owners}:</b> {contact_val.owners}
             <br />
-            <b>{contact.phone}: </b>{contact_val.phone}
+            <b>{contact.phone}: </b>
+            {contact_val.phone}
             <br />
-            {contact_val.mail}<b> :{contact.mail} </b>
+            <b>{contact.mail}: </b>
+            {contact_val.mail}
           </div>
         </div>
         {/* Meir */}
 
         {/* Yossi */}
         <div className="owners ">
-          <div className="col-5 left_f" dir="ltr">
-            (תמונה)
-          </div>
-          <div className="col-6 bg_darker">
+          <div className="col-6 bg_darker shadow-lg rounded-bottom bottom_marg">
             <h1>{yossi}</h1>
-            <p>(טקסט על יוסי)</p>
+            <p>{yossi_txt}</p><br />
+            <h1>{meir}</h1>
+            <p>{meir_txt}</p><br /><br />
           </div>
         </div>
-        <div className="col-5 left_f" dir="ltr">
-          (תמונה)
-        </div>
-        <div className="col-6 bg_darker shadow-lg rounded-bottom bottom_marg">
-          <h1>{meir}</h1>
-          <p className="text_content">{meir_text}</p>
-        </div>
+
         {/* <img src={img_bg_about} alt='ncnnc'/> */}
       </div>
     </div>

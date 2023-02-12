@@ -7,7 +7,7 @@ export const proj_names = {
 }
 
 export const nav_subjects = {
-    explanation:"הסבר על הפרוייקט",
+    explanation:"על הפרוייקט",
     specification:"מפרט",
     imaging:"דגמים",
     above:"מבט על",

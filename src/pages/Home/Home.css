@@ -1,11 +1,10 @@
 .Home{
-    position: relative;
-    top:50px;
+    height: 100vh;
+    margin-bottom: 53%;
 }
 
-.Home{
+body{
     background-color:#F5F5F5;
-
 }
 
 
@@ -29,10 +28,11 @@
 .proj{
     position: relative;
     top: 10%;
+    height: 100%;
 }
 
 .allProj{
     position: relative;
-    right: 5% ;
+    right: 15% ;
     height: 100%;
 }

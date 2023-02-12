@@ -5,19 +5,19 @@ const OurProj = (props) => {
  const label = `לפרוייקט`;
  
   return (
-    <div className="shadow ourproj_contain" dir="rtl">
+    <div className="shadow ourproj_contain rounded" dir="rtl">
       <div className="col-8 sh">
         <img className="img_ourproj"
           src={props.img}
           alt="nothing"
         />
       </div>
-      <div className='col-3 sh text-center text_ourproj'>
+      <div className='col-3 sh text-center '>
         <img className="logo img_logo"  src={props.logo} alt="" />
         <br />
-        <h5>{props.name}</h5>
-        <h5>{props.address}</h5>
-        <Button href={props.loc} className="b" variant="outline-success">{label}</Button>
+        <div ><b>{props.name}</b></div>
+        <div ><b>{props.address}</b></div>
+        <Button className="text_ourproj" href={props.loc} variant="outline-success">{label}</Button>
       </div>
     </div>
   );

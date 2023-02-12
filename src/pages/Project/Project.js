@@ -10,7 +10,8 @@ import FiveD1P from "../../sources/5 Rooms D1 - Penthouse.jpeg";
 import FiveEP from "../../sources/5 Rooms E - Penthouse + Pool.jpeg";
 import FiveFP from "../../sources/5 Rooms F - Penthouse + Pool.jpeg";
 import SixDP from "../../sources/6 Rooms D - Penthouse.jpeg";
-import { BsFillHouseFill, BsDoorOpenFill } from "react-icons/bs";
+import { BsFillHouseFill} from "react-icons/bs";
+import {MdBalcony, MdYard }from "react-icons/md";
 import Specification from "../../componets/specification/specification";
 import Imaging from "../../componets/Imaging/Imaging";
 import floor from "../../sources/floor.jpeg";
@@ -76,7 +77,7 @@ const Project = (props) => {
       name: "3 חדרים",
       type: "C",
       pic: ThreeC,
-      house: "74 מטרים",
+      house: "77 מטרים",
       porch: "16 מטרים",
     },
     {
@@ -87,18 +88,18 @@ const Project = (props) => {
       porch: "19 מטרים",
     },
     {
-      name: "4 חדרים",
+      name: "4 חדרים - מיני פנטהאוז",
       type: "A2",
       pic: FourA2,
       house: "104 מטרים",
-      porch: "19 מטרים",
+      porch: "35 מטרים",
     },
     {
-      name: "גן 4 חדרים",
+      name: "4 חדרים - גן",
       type: "B",
       pic: Gan4B,
       house: "104 מטרים",
-      porch: "19 מטרים",
+      garden: "70 מטרים",
     },
 
     {
@@ -109,46 +110,46 @@ const Project = (props) => {
       porch: "21 מטרים",
     },
     {
-      name: "5 חדרים",
+      name: "5 חדרים - מיני פנטהאוז",
       type: "B2",
       pic: FiveB2,
       house: "120 מטרים",
-      porch: "21 מטרים",
+      porch: "40 מטרים",
     },
     {
-      name: "גן 5 חדרים",
+      name: "5 חדרים - גן",
       type: "C",
       pic: Gan5C,
       house: "120 מטרים",
-      porch: "21 מטרים",
+      garden: "180 מטרים",
     },
     {
-      name: "פנטהאוז 5 חדרים",
+      name: "5 חדרים - פנטהאוז",
       type: "D1",
       pic: FiveD1P,
-      house: "120 מטרים",
-      porch: "21 מטרים",
+      house: "140 מטרים",
+      porch: "50 מטרים",
     },
     {
-      name: "פנטהאוז 5 חדרים",
+      name: "5 חדרים - פנטהאוז",
       type: "E",
       pic: FiveEP,
-      house: "120 מטרים",
-      porch: "21 מטרים",
+      house: "142 מטרים",
+      porch: "120 מטרים",
     },
     {
-      name: "פנטהאוז 5 חדרים",
+      name: "5 חדרים - פנטהאוז",
       type: "F",
       pic: FiveFP,
-      house: "120 מטרים",
-      porch: "21 מטרים",
+      house: "141 מטרים",
+      porch: "110 מטרים",
     },
     {
-      name: "פנטהאוז 6 חדרים",
+      name: "6 חדרים - פנטהאוז",
       type: "D",
       pic: SixDP,
-      house: "120 מטרים",
-      porch: "21 מטרים",
+      house: "157 מטרים",
+      porch: "80 מטרים",
     },
   ];
 
@@ -184,20 +185,31 @@ const Project = (props) => {
           <br />
           <div>
             <BsFillHouseFill /> בית <span className="home_icon"></span>
-            <BsDoorOpenFill /> מרפסת
+            <MdBalcony /> מרפסת <span className="home_icon"></span>
+            <MdYard /> גינה
           </div>
           <hr />
           {props.name === name && (
             <div>
               {departments.map((val, ind) => (
                 <div type={ind} className="depFloat">
-                  <Department
-                    name={val.name}
-                    type={val.type}
-                    pic={val.pic}
-                    house={val.house}
-                    porch={val.porch}
-                  />
+                  {val.porch ? (
+                    <Department
+                      name={val.name}
+                      type={val.type}
+                      pic={val.pic}
+                      house={val.house}
+                      porch={val.porch}
+                    />
+                  ) : (
+                    <Department
+                      name={val.name}
+                      type={val.type}
+                      pic={val.pic}
+                      house={val.house}
+                      garden={val.garden}
+                    />
+                  )}
                 </div>
               ))}
             </div>
@@ -222,11 +234,11 @@ const Project = (props) => {
         <div className="headlines" id="6">
           <h1>{nav_subjects.location}</h1>
           <hr />
-          {props.name===name &&
+          {props.name === name && (
             <div className="text-center">
               <img className="img_loc" src={loc} alt="nothing" />
             </div>
-          }
+          )}
         </div>
       </div>
     </div>

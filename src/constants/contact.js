@@ -1,3 +1,11 @@
+const meir = {
+    phone:`0542305000`,
+    mail:`benhamomeir@gmail.com`
+}
+const yossi = {
+    phone:`0522880832`,
+    mail:`yossi52p@gmail.com`
+}
 export const contact ={
     address:'כתובת',
     owners:'בעלים',
@@ -8,8 +16,8 @@ export const contact ={
 export const contact_val = {
     address:'סמילנסקי 26, באר שבע',
     owners:'יוסי איטח ומאיר בן חמו',
-    phone: '1111111111',
-    mail:'benhamomeir@gmail.com'
+    phone: `מאיר - ${meir.phone}, יוסי - ${yossi.phone}` ,
+    mail:`מאיר - ${meir.mail}, יוסי - ${yossi.mail}`
 }
 
 export const email_contact={
@@ -17,3 +25,4 @@ export const email_contact={
     project: 'פרויקט',
     phone:'טלפון',
 }
+
