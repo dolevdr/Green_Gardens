@@ -10,8 +10,8 @@ import FiveD1P from "../../sources/5 Rooms D1 - Penthouse.jpeg";
 import FiveEP from "../../sources/5 Rooms E - Penthouse + Pool.jpeg";
 import FiveFP from "../../sources/5 Rooms F - Penthouse + Pool.jpeg";
 import SixDP from "../../sources/6 Rooms D - Penthouse.jpeg";
-import { BsFillHouseFill} from "react-icons/bs";
-import {MdBalcony, MdYard }from "react-icons/md";
+import { BsFillHouseFill } from "react-icons/bs";
+import { MdBalcony, MdYard } from "react-icons/md";
 import Specification from "../../componets/specification/specification";
 import Imaging from "../../componets/Imaging/Imaging";
 import floor from "../../sources/floor.jpeg";
@@ -22,13 +22,16 @@ import mabatAl from "../../sources/Mabat Al.jpeg";
 import neighborhood from "../../sources/Neighborhood.jpeg";
 import Gan5C from "../../sources/Gan 5 - B.jpeg";
 import Gan4B from "../../sources/Gan 4- A.jpeg";
+import logo from "../../sources/home_logo.png";
 
 import { nav_subjects } from "../../constants/projects";
+import Opening from "../../componets/Opening/Opening";
 
 const Project = (props) => {
   const subjects = Object.values(nav_subjects);
-  const name = `גנים ירוקים`;
-  const specification = [
+  const ganim_txt = `שכונת פארק באר שבע`;
+  const ganim = `גנים ירוקים`;
+  const ganim_specification = [
     {
       head: "מטבח",
       items: [
@@ -72,7 +75,7 @@ const Project = (props) => {
       items: ["ריצוף גרניט פורצלן 80/80", "קרמיקה בקירות 60/120"],
     },
   ];
-  const departments = [
+  const ganim_departments = [
     {
       name: "3 חדרים",
       type: "C",
@@ -159,18 +162,27 @@ const Project = (props) => {
         <Navigate categories={subjects} />
       </div>
       <div className="col-10 pageLeft">
-        <h1 className="text-center">{props.name}</h1>
+        <div className="text-center">
+          {props.name === ganim && (
+            <Opening
+              name={props.name}
+              openImg={props.openImg}
+              logo={logo}
+              text={ganim_txt}
+            />
+          )}
+        </div>
         <div className="headlines" id="1">
           <h1>{nav_subjects.explanation}</h1>
           <hr />
-          <p>{props.text}</p>
+          {props.name === ganim && <p>{props.text}</p>}
         </div>
         <div className="headlines" id="2">
           <h1>{nav_subjects.specification}</h1>
           <hr />
-          {props.name === name && (
+          {props.name === ganim && (
             <div>
-              {specification.map((val, ind) => (
+              {ganim_specification.map((val, ind) => (
                 <div key={ind}>
                   {" "}
                   <Specification head={val.head} list={val.items} />
@@ -189,10 +201,10 @@ const Project = (props) => {
             <MdYard /> גינה
           </div>
           <hr />
-          {props.name === name && (
+          {props.name === ganim && (
             <div>
-              {departments.map((val, ind) => (
-                <div type={ind} className="depFloat">
+              {ganim_departments.map((val, ind) => (
+                <div key={ind} className="depFloat">
                   {val.porch ? (
                     <Department
                       name={val.name}
@@ -218,7 +230,7 @@ const Project = (props) => {
         <div className="headlines" id="4">
           <h1>{nav_subjects.above}</h1>
           <hr />
-          {props.name === name && (
+          {props.name === ganim && (
             <div className="text-center">
               <img className="img_above" src={mabatAl} alt="nothing" />
             </div>
@@ -227,14 +239,14 @@ const Project = (props) => {
         <div className="headlines" id="5">
           <h1>{nav_subjects.imaging}</h1>
           <hr />
-          {props.name === name && (
+          {props.name === ganim && (
             <Imaging images={[floor, p_h, row, neighborhood]} />
           )}
         </div>
         <div className="headlines" id="6">
           <h1>{nav_subjects.location}</h1>
           <hr />
-          {props.name === name && (
+          {props.name === ganim && (
             <div className="text-center">
               <img className="img_loc" src={loc} alt="nothing" />
             </div>

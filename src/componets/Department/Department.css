@@ -1,6 +1,6 @@
 .Cont{
     width: 200px;
-    height: 315px;
+    height: 320px;
 }
 
 .Pic{
@@ -20,7 +20,7 @@
     font-size: 40px;
     z-index: 2;
     width: 45px;
-    right: 80px;
+    right: 78px;
 }
 
 
@@ -37,7 +37,7 @@
 }
 
 .body_dep{
-    font-size: 20px;
+    font-size: large;
     position: relative;
     top: -50px;
 }

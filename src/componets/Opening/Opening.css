@@ -1,0 +1,30 @@
+.openingContainer{
+    height: 400px;
+    width: 90%;
+    margin: 50px;
+}
+
+.open{
+    float: right;
+}
+
+.img_obj{
+    height: 100%;
+    width: 75%;
+}
+
+.openName{
+    position: relative;
+    top:10%;
+    right: 5%;
+}
+
+.logo_open{
+    height: 150px;
+    width: 150px;
+}
+
+.text_open, .logo_open{
+    position: relative;
+    right: 1.9%;
+}

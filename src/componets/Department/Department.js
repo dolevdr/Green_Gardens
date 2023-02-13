@@ -10,10 +10,10 @@ const Department = (props) => {
   const header = `תוכנית העמדה - ${props.type}`;
 
   return (
-    <div className="shadow Cont text-center">
+    <div className="shadow Cont rounded text-center">
       <div className="text-center pic_open">
         <img
-          className="Pic"
+          className="Pic rounded"
           src={props.pic}
           alt="nothing"
           onClick={() => setIsOpen(true)}
@@ -23,7 +23,7 @@ const Department = (props) => {
         <b>{props.type}</b>
       </div>
       <div className="text-center">
-        <h1 className="body_dep">{props.name}</h1>
+        <div className="body_dep"><b>{props.name}</b></div>
         <div className="data">
           <p>
             {" "}

@@ -23,13 +23,13 @@ const FootNavBar = (props) => {
                 <p
                   onClick={() => navigate(routes[val][value])}
                   className="po"
-                  key={index}
+                  key={`${ind}${index}`}
                 >
                   {headers[val][value]}
                 </p>
               ))
             ) : (
-              <p onClick={() => navigate(routes[val])} className="po" key={ind}>
+              <p onClick={() => navigate(routes[val])} className="po" key={`${ind}`}>
                 {headers[val]}
               </p>
             )}
