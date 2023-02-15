@@ -17,7 +17,7 @@ const OurProj = (props) => {
         <br />
         <div ><b>{props.name}</b></div>
         <div ><b>{props.address}</b></div>
-        <Button className="text_ourproj" href={props.loc} variant="outline-success">{label}</Button>
+        <Button className="text_ourproj" size="sm" href={props.loc} variant="outline-success">{label}</Button>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 .Home{
     height: 350vh;
-    margin-bottom:20%;
+    margin-bottom:10%;
+    width: 99vw;
 }
 
 body{
@@ -8,16 +9,16 @@ body{
 }
 
 
-.container{
+/* .container{
     position: relative;
     height: 50%;
     width: 100%;
     right: -5%;
-} 
+}  */
 
 .description_text{
     white-space: pre-line;
-    font-size: 2.5vh;
+    font-size: 1.2vw;
 }
 
 .head_text{
@@ -28,13 +29,13 @@ body{
 }
 
 .header_text, .home_txt{
-    font-size: 13vh;
+    font-size: 6vw;
 }
 
 .nav_projects{
     background-color: goldenrod;
     color: white;
-    font-size: 2.5vh;
+    font-size: 1vw;
 }
 
 

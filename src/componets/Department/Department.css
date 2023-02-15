@@ -1,8 +1,44 @@
-.Cont{
-    width: 15vw;
-    height: 55vh;
-    font-size: 1vw;
+@media screen and (max-width: 1000000px) {
+    .Cont{
+        width: 15vw;
+        height: 55vh;
+        font-size: 1vw;
+    }
 }
+@media screen and (max-width: 830px) {
+    .Cont{
+        width: 23vw;
+        height: 45vh;
+        font-size: 2vw;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .Cont{
+        width: 33vw;
+        height: 50vh;
+        font-size: 3vw;
+    }
+    
+}
+@media screen and (max-width: 430px) {
+    .Cont{
+        width: 45vw;
+        height: 47vh;
+        font-size: 3.2vw;
+    }
+    
+}
+@media screen and (max-width: 200px) {
+    .Cont{
+        width: 48vw;
+        height: 40vh;
+        font-size: 4vw;
+    }
+    
+}
+
+
 
 .Pic{
     z-index: 1;

@@ -1,15 +1,39 @@
-.openingContainer{
-    width: 90vw;
-    margin-top: 5%;
+@media screen and (max-width: 1000000px) {
+    .openingContainer{
+        width: 100%;
+        margin-top: 5%;
+    }
+
 }
+@media screen and (max-width: 600px) {
+    .openingContainer{
+        width: 90%;
+        margin-top: 5%;
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    .openingContainer{
+        width: 70%;
+        margin-top: 5%;
+    }
+}
+
+
 
 .open{
     float: right;
 }
+ .text_open{
+    font-size: 1vw;
+}
+.projName{
+    font-size: 1.7vw;
+}
 
 .openName{
     position: relative;
-    top:10vh;
+    top:10%;
 }
 
 .logo_open{

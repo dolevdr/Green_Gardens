@@ -18,8 +18,8 @@ const About = () => {
       <div className="company_name">
         <h1>{company_name}</h1>
       </div>
-      <div className="flex_container">
-        <div className="flex_child bg_darker rounded shadow-lg">
+      <div className="row">
+        <div className=" col-8 f1 bg_darker rounded shadow-lg">
           <div className="owners_txt">{text}</div>
           <div className="owners ">
             <h1>{yossi}</h1>
@@ -28,7 +28,7 @@ const About = () => {
             <div className="owners_txt">{meir_txt}</div>
           </div>
         </div>
-        <div className="flex_child">
+        <div className=" col-4 f2">
           <b>{contact.address}:</b> {contact_val.address}
           <br />
           <b>{contact.owners}:</b> {contact_val.owners}
