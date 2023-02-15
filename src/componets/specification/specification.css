@@ -9,9 +9,9 @@
 .list_item{
     display:flex;
     position: relative;
-    right: 40px;
+    right: 5%;
 }
 
 .span_style{
-    margin:10px;
+    margin:0.8%;
 }

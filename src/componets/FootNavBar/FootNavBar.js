@@ -21,7 +21,7 @@ const FootNavBar = (props) => {
             {val === projects ? (
               Object.keys(headers[val]).map((value, index) => (
                 <p
-                  onClick={() => navigate(routes[val][value])}
+                  onClick={() => {navigate(routes[val][value]); window.scrollTo(0,0)}}
                   className="po"
                   key={`${ind}${index}`}
                 >
@@ -29,7 +29,7 @@ const FootNavBar = (props) => {
                 </p>
               ))
             ) : (
-              <p onClick={() => navigate(routes[val])} className="po" key={`${ind}`}>
+              <p onClick={() => {navigate(routes[val]); window.scrollTo(0,0)}} className="po" key={`${ind}`}>
                 {headers[val]}
               </p>
             )}

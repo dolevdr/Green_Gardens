@@ -1,27 +1,20 @@
 .openingContainer{
-    height: 400px;
-    width: 90%;
-    margin: 50px;
+    width: 90vw;
+    margin-top: 5%;
 }
 
 .open{
     float: right;
 }
 
-.img_obj{
-    height: 100%;
-    width: 75%;
-}
-
 .openName{
     position: relative;
-    top:10%;
-    right: 5%;
+    top:10vh;
 }
 
 .logo_open{
-    height: 150px;
-    width: 150px;
+    height: 30%;
+    width: 40%;
 }
 
 .text_open, .logo_open{

@@ -11,7 +11,7 @@ function NavBar(props) {
   const company = `א.ים ארץ ישראל ומלואה`;
   
   return (
-    <div >
+    <div className="nav_container">
       <Navbar bg="light" expand="lg" fixed="top" className="shadow" >
         <Container>
           {/* add navigations */}

@@ -22,21 +22,21 @@ const Department = (props) => {
       <div className="type text-center">
         <b>{props.type}</b>
       </div>
-      <div className="text-center">
-        <div className="body_dep"><b>{props.name}</b></div>
-        <div className="data">
-          <p>
+      <div className="text-center data">
+        <div className="name_header"><b>{props.name}</b></div>
+        <div>
+          <div>
             {" "}
             <BsFillHouseFill /> {props.house}
-          </p>
+          </div>
           {props.porch ? (
-            <p>
+            <div>
               <MdBalcony /> {props.porch}
-            </p>
+            </div>
           ) : (
-            <p>
+            <div>
               <MdYard /> {props.garden}{" "}
-            </p>
+            </div>
           )}
         </div>
         {isOpen && (

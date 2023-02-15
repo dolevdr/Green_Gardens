@@ -4,14 +4,14 @@ const Opening = (props) => {
   return (
     <div className="openingContainer">
       <img
-        className="open img_obj rounded shadow-lg"
+        className="open col-8 rounded shadow-lg"
         src={props.openImg}
         alt="nothing"
       />
-      <div className="openName text-center">
-        <img className="open logo_open" src={props.logo} alt="nothing" />
-        <h1 className="open">{props.name}</h1>
-        <p className="open text_open">{props.text}</p>
+      <div className="openName col-4 open text-center">
+        <img className=" logo_open" src={props.logo} alt="nothing" /><br />
+        <h1 className="">{props.name}</h1>
+        <p className=" text_open">{props.text}</p>
       </div>
     </div>
   );

@@ -14,42 +14,67 @@ const About = () => {
   מיום הקמתה, חרטה הקבוצה על דגלה לבנות, לנהל ולשווק פרויקטים נדלניים במקצועיות ובאיכות ללא פשרות, כאשר בראש ובראשונה עומדת לנגד עיניה שביעות הרצון של הלקוחות.`;
 
   return (
-    <div dir="rtl" className="about_contain">
-      <div className="content">
+    <div dir="rtl" className="about_container">
+      <div className="company_name">
         <h1>{company_name}</h1>
-        <div className="text col-12 ">
-          <p className="col-6 flex-child bg_darker rounded-top">
-            {text}
-            <br />
-            <br />
-          </p>
-          <div className="col-5 contact_marg">
-            <b>{contact.address}:</b> {contact_val.address}
-            <br />
-            <b>{contact.owners}:</b> {contact_val.owners}
-            <br />
-            <b>{contact.phone}: </b>
-            {contact_val.phone}
-            <br />
-            <b>{contact.mail}: </b>
-            {contact_val.mail}
-          </div>
-        </div>
-        {/* Meir */}
-
-        {/* Yossi */}
-        <div className="owners ">
-          <div className="col-6 bg_darker shadow-lg rounded-bottom bottom_marg">
+      </div>
+      <div className="flex_container">
+        <div className="flex_child bg_darker rounded shadow-lg">
+          <div className="owners_txt">{text}</div>
+          <div className="owners ">
             <h1>{yossi}</h1>
-            <p>{yossi_txt}</p><br />
+            <div className="owners_txt">{yossi_txt}</div>
             <h1>{meir}</h1>
-            <p>{meir_txt}</p><br /><br />
+            <div className="owners_txt">{meir_txt}</div>
           </div>
         </div>
-
-        {/* <img src={img_bg_about} alt='ncnnc'/> */}
+        <div className="flex_child">
+          <b>{contact.address}:</b> {contact_val.address}
+          <br />
+          <b>{contact.owners}:</b> {contact_val.owners}
+          <br />
+          <b>{contact.phone}: </b>
+          {contact_val.phone}
+          <br />
+          <b>{contact.mail}: </b>
+          {contact_val.mail}
+        </div>
       </div>
     </div>
+
+    // <div dir="rtl" className="about_contain">
+    //   <div className="content ">
+    //     <h1>{company_name}</h1>
+    //     <div className="text col-12 ">
+    //       <p className="col-6 flex-child bg_darker rounded-top">
+    //         {text}
+    //         <br />
+    //         <br />
+    //       </p>
+    //       <div className="col-5 contact_marg">
+    //         <b>{contact.address}:</b> {contact_val.address}
+    //         <br />
+    //         <b>{contact.owners}:</b> {contact_val.owners}
+    //         <br />
+    //         <b>{contact.phone}: </b>
+    //         {contact_val.phone}
+    //         <br />
+    //         <b>{contact.mail}: </b>
+    //         {contact_val.mail}
+    //       </div>
+    //     </div>
+
+    //     <div className="owners ">
+    //       <div className="col-6 bg_darker shadow-lg rounded-bottom bottom_marg">
+    //         <h1>{yossi}</h1>
+    //         <p>{yossi_txt}</p><br />
+    //         <h1>{meir}</h1>
+    //         <p>{meir_txt}</p><br />
+    //       </div>
+    //     </div>
+
+    //   </div>
+    // </div>
   );
 };
 

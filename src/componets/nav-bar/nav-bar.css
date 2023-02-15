@@ -2,20 +2,24 @@
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+.nav_container{
+    font-size: 1.5vw;
+}
+
 .nav{
-    margin: 10px;
+    margin: 3%;
 }
 .nav_bootstrap{
     width: 100%;
 }
 
 .image_logo{
-    height: 27px;
-    width: 60px;
+    height: 3vw;
+    width: 6vw;
 }
 
 .nav_logo{
     position: relative;
     right: 30%;
-    font-size: medium;
+    font-size: 1.5vw;
 }

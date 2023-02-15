@@ -1,15 +1,20 @@
 #n a{
     margin: 0;
     vertical-align: middle;
-    line-height: 60px;
+    line-height: 6vh;
 }
+/* h1{
+    font-size: 5vw;
+} */
 
 #n{
     width:100%;
     position: sticky;
-    top:60px;
+    top:10%;
 }
 
 .button_bootstrap{
     display: block;
+    font-size: 2vh;
+
 }

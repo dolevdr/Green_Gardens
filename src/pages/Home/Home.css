@@ -1,6 +1,6 @@
 .Home{
-    height: 100vh;
-    margin-bottom: 53%;
+    height: 350vh;
+    margin-bottom:20%;
 }
 
 body{
@@ -17,22 +17,59 @@ body{
 
 .description_text{
     white-space: pre-line;
+    font-size: 2.5vh;
+}
+
+.head_text{
+    position: relative;
+    z-index: 2;
+    color: white;
+    top: 30%;
+}
+
+.header_text, .home_txt{
+    font-size: 13vh;
+}
+
+.nav_projects{
+    background-color: goldenrod;
+    color: white;
+    font-size: 2.5vh;
+}
+
+
+.home_txt{
+    color: gold;
+
 }
 
 .description{
     position:relative;
-    top:10%;
-    
+    top:2%;    
+    height: 40%;
+}
+
+.description::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../../sources/Home.jpeg");
+    filter: brightness(50%);
+    background-size: cover;
+    z-index: -3;
 }
 
 .proj{
     position: relative;
-    top: 10%;
-    height: 100%;
+    top: 5%;
+    height: 60%;
 }
 
 .allProj{
     position: relative;
-    right: 15% ;
-    height: 100%;
+    right: 12% ;
+    height: 95%;
 }

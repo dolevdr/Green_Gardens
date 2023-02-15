@@ -1,46 +1,42 @@
 .Cont{
-    width: 200px;
-    height: 320px;
+    width: 10vw;
+    height: 35vh;
+    font-size: 2vh;
 }
 
 .Pic{
-    position: relative;
-    top:-5px;
     z-index: 1;
     width: 100%;
-    height: 180px;
+    height: 60%;
 }
 .Pic:hover{
     filter: brightness(30%);
 }
 .type{
     position: relative;
-    top:-130px;
+    top:-80%;
     color: white;
-    font-size: 40px;
+    font-size: 4vh;
     z-index: 2;
-    width: 45px;
-    right: 78px;
 }
 
 
 .data{
-    text-align: right;
+    /* text-align: right; */
     position: relative;
-    top: -50px;
-    margin: 5px;
+    top: -55%;
+    /* margin: 5px; */
 }
-
+.name_header{
+    margin-bottom: 4%;
+}
 .pic_open{
     filter: brightness(40%);
     cursor: pointer;
+    height: 100%;
 }
 
-.body_dep{
-    font-size: large;
-    position: relative;
-    top: -50px;
-}
+
 
 .img_modal{
     position:relative;

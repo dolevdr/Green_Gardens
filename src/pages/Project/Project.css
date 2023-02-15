@@ -1,8 +1,8 @@
 .headlines{
-    margin-bottom: 50px;
+    margin-top:3%;
     float: right;
     clear: both;
-    width: 100%;
+    width: 80vw;
 }
 
 body{
@@ -21,13 +21,17 @@ body{
 .depFloat{
     float: right;
     clear: left;
-    margin: 30px;
-    height: 300px;
+    margin: 2%;
+    height: 20%;
 }
-
+.spec_marg{
+    margin-bottom: 1%;
+}
 .project_container{
-    margin-top: 5%;
+    margin-top: 10vh;
     display: flex;
+    font-size: 2vh;
+    width: 100vw;
 }
 
 .subjects{
@@ -39,15 +43,15 @@ body{
 .img_loc{
     position:relative;
     top:-1%;
-    width:100%;
+    width:85vw;
 }
 
 .img_above{
     position: relative;
     top: -1%;
-    width: 100%;
+    width: 85vw;
 }
 
 .home_icon{
-    margin-left: 30px; 
+    margin-right: 1%;
 }

@@ -8,8 +8,11 @@
 }
 
 .ourproj_contain{
-    width:75%;
-    height:39%;
+    width:80%;
+    height:23%;
+    margin-bottom: 4%;
+    font-size:3vh;
+
 }
 
 .img_ourproj{
@@ -23,10 +26,16 @@
 .img_logo{
     position:relative;
     top:0px;
-    width:40%;
-    height:45%;
+    width:30%;
+    height:30%;
 }
 
 .text_ourproj{
     margin: 5%;
+    font-size:2.5vh;
+}
+
+.centerY{
+    position: relative;
+    top: 10%;
 }
