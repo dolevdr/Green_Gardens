@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Green_Gardens/static/css/main.041cd517.css",
+    "main.js": "/Green_Gardens/static/js/main.d807ba11.js",
+    "static/media/Mabat Al.jpeg": "/Green_Gardens/static/media/Mabat Al.a807e61b304399ce27dc.jpeg",
+    "static/media/Home.jpeg": "/Green_Gardens/static/media/Home.cf657feacaf9860d8e26.jpeg",
+    "static/media/row.jpeg": "/Green_Gardens/static/media/row.7930ae0a97fe86d0d344.jpeg",
+    "static/media/home_logo.png": "/Green_Gardens/static/media/home_logo.b1f44b77736cb935d073.png",
+    "static/media/Ganim Yerukim.jpeg": "/Green_Gardens/static/media/Ganim Yerukim.6b457895c758909989d3.jpeg",
+    "static/media/penthouse.jpeg": "/Green_Gardens/static/media/penthouse.7bb4c5fb0d7bcff7071f.jpeg",
+    "static/media/Gan 5 - B.jpeg": "/Green_Gardens/static/media/Gan 5 - B.43291436e4562def94ed.jpeg",
+    "static/media/floor.jpeg": "/Green_Gardens/static/media/floor.ecbb614440f435ed3378.jpeg",
+    "static/media/Geulim.jpeg": "/Green_Gardens/static/media/Geulim.3ed47c7b3143a0d8dfc4.jpeg",
+    "static/media/Gan 4- A.jpeg": "/Green_Gardens/static/media/Gan 4- A.b0f3b95585fab7975ffd.jpeg",
+    "static/media/backImgAbout.jpeg": "/Green_Gardens/static/media/backImgAbout.7083f87e535b9db95d70.jpeg",
+    "static/media/Meshahrerim.jpeg": "/Green_Gardens/static/media/Meshahrerim.47419b70b095aa4b2682.jpeg",
+    "static/media/5 Rooms E - Penthouse + Pool.jpeg": "/Green_Gardens/static/media/5 Rooms E - Penthouse + Pool.e88b0310fb354b355de3.jpeg",
+    "static/media/5 Rooms F - Penthouse + Pool.jpeg": "/Green_Gardens/static/media/5 Rooms F - Penthouse + Pool.a332d8f10b04d511876f.jpeg",
+    "static/media/location.jpeg": "/Green_Gardens/static/media/location.0ea6abdd29befc1766a7.jpeg",
+    "static/media/6 Rooms D - Penthouse.jpeg": "/Green_Gardens/static/media/6 Rooms D - Penthouse.790c7caa91f1e50e22ee.jpeg",
+    "static/media/5 Rooms D1 - Penthouse.jpeg": "/Green_Gardens/static/media/5 Rooms D1 - Penthouse.82d36b87d742ce27f6b8.jpeg",
+    "static/media/Halia.jpeg": "/Green_Gardens/static/media/Halia.21dbf980d0eee8fa80c4.jpeg",
+    "static/media/5 Rooms B2.jpeg": "/Green_Gardens/static/media/5 Rooms B2.a64b8504dbfdef93b17a.jpeg",
+    "static/media/4 Rooms A1.jpeg": "/Green_Gardens/static/media/4 Rooms A1.d18d4491d0b7a82baf5c.jpeg",
+    "static/media/5 Rooms B1.jpeg": "/Green_Gardens/static/media/5 Rooms B1.7ffc2db3bc0c47494f9c.jpeg",
+    "static/media/4 Rooms A2.jpeg": "/Green_Gardens/static/media/4 Rooms A2.ee5c472b9519c185e049.jpeg",
+    "static/media/3 Rooms C.jpeg": "/Green_Gardens/static/media/3 Rooms C.14d9e886c34ce1188e4f.jpeg",
+    "index.html": "/Green_Gardens/index.html",
+    "main.041cd517.css.map": "/Green_Gardens/static/css/main.041cd517.css.map",
+    "main.d807ba11.js.map": "/Green_Gardens/static/js/main.d807ba11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.041cd517.css",
+    "static/js/main.d807ba11.js"
+  ]
+}
