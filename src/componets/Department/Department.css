@@ -1,7 +1,7 @@
 .Cont{
-    width: 10vw;
-    height: 35vh;
-    font-size: 2vh;
+    width: 15vw;
+    height: 55vh;
+    font-size: 1vw;
 }
 
 .Pic{
@@ -16,7 +16,7 @@
     position: relative;
     top:-80%;
     color: white;
-    font-size: 4vh;
+    font-size: 6vh;
     z-index: 2;
 }
 
@@ -24,7 +24,7 @@
 .data{
     /* text-align: right; */
     position: relative;
-    top: -55%;
+    top: -50%;
     /* margin: 5px; */
 }
 .name_header{
