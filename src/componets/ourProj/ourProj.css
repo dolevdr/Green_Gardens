@@ -97,7 +97,7 @@
 @media screen and (max-width: 1000px) {
     .ourproj_contain{
         width:85vw;
-        height:40vh;
+        height:30vh;
         font-size:1.5vw;
         margin-bottom: 10%;
     
@@ -114,12 +114,12 @@
     .ourproj_contain{
         width:80vw;
         height:15vh;
-        font-size:3.5vw;
+        font-size:2.5vw;
         margin-bottom: 15%;
     
     }
     .text_ourproj{
-        font-size: 4vw;
+        font-size: 2vw;
     }
     .img_logo{
         width:60%;
