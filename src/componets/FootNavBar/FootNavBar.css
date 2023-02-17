@@ -1,4 +1,39 @@
+@media screen and (max-width: 1500000000px) {
+    .navigateFl, .body_foot, .logo_img, .po {
+        font-size: 1vw;
+    }
+}
 
+@media screen and (max-width: 1100px) {
+    .navigateFl, .body_foot, .logo_img, .po {
+        font-size: 1.2vw;
+    }
+}
+@media screen and (max-width: 900px) {
+    .navigateFl, .body_foot, .logo_img, .po {
+        font-size: 1.3vw;
+    }
+}
+@media screen and (max-width: 750px) {
+    .navigateFl, .body_foot, .logo_img, .po {
+        font-size: 1.4vw;
+    }
+}
+@media screen and (max-width: 600px) {
+    .navigateFl, .body_foot, .logo_img, .po {
+        font-size: 1.5vw;
+    }
+}
+@media screen and (max-width: 400px) {
+    .navigateFl, .body_foot, .logo_img, .po {
+        font-size: 1.7vw;
+    }
+}
+@media screen and (max-width: 300px) {
+    .navigateFl, .body_foot, .logo_img, .po {
+        font-size: 2.5vw;
+    }
+}
 
 .contain_navbar{
     background-color:#d3d3d3ac;
@@ -19,8 +54,6 @@
     margin-top:3%;
     width: 33%;
     height: 100%;
-    font-size: 1.5vw;
-
 }
 
 .navigateFl{
@@ -35,7 +68,6 @@
     position: relative;
     margin: 1vh;
     right: 30%;
-    font-size: 1.5vw;
 }
 
 .po:hover{

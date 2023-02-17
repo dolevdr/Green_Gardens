@@ -1,8 +1,82 @@
-.Home{
-    height: 350vh;
-    margin-bottom:10%;
-    width: 99vw;
+@media screen and (max-width: 2000000px) {
+    .Home{
+        height: 250vh;
+        margin-bottom:30%;
+        width: 99vw;
+    }
+    .description_text{
+        white-space: pre-line;
+        font-size: 2vw;
+    }
+    .header_text, .home_txt{
+        font-size: 8vw;
+    }
+    .head{
+        font-size: 6vw;
+    }
+
 }
+@media screen and (max-width: 1500px) {
+    .Home{
+        height: 250vh;
+        margin-bottom:80%;
+        width: 99vw;
+    }
+    .description_text{
+        white-space: pre-line;
+        font-size: 1.5vw;
+    }
+    .header_text, .home_txt{
+        font-size: 6vw;
+    }
+    .head{
+        font-size: 3vw;
+    }
+
+}
+@media screen and (max-width: 1000px) {
+    .Home{
+        height: 250vh;
+        margin-bottom:80%;
+        width: 99vw;
+    }
+    .description_text{
+        white-space: pre-line;
+        font-size: 3vw;
+    }
+    .header_text, .home_txt{
+        font-size: 8vw;
+    }
+    .head{
+        font-size: 8vw;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .Home{
+        height: 150vh;
+        margin-bottom:40%;
+        width: 99vw;
+    }
+    .description_text{
+        white-space: pre-line;
+        font-size: 4vw;
+    }
+    .header_text, .home_txt{
+        font-size: 8vw;
+    }
+    .head{
+        font-size: 8vw;
+    }
+
+}
+
+
+/* .Home{
+    height: 350vh;
+    margin-bottom:40%;
+    width: 99vw;
+} */
 
 body{
     background-color:#F5F5F5;
@@ -16,10 +90,10 @@ body{
     right: -5%;
 }  */
 
-.description_text{
+/* .description_text{
     white-space: pre-line;
     font-size: 1.2vw;
-}
+} */
 
 .head_text{
     position: relative;
@@ -28,14 +102,14 @@ body{
     top: 30%;
 }
 
-.header_text, .home_txt{
+/* .header_text, .home_txt{
     font-size: 6vw;
-}
+} */
 
 .nav_projects{
     background-color: goldenrod;
     color: white;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 

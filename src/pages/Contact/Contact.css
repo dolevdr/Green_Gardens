@@ -4,9 +4,14 @@
     right: 30%;
     top: 70px;
 }
-
+h1{
+    font-size: 2vw;
+}
 .container_contact{
     height:100vh;
+    font-size: 1.7vw;
+    margin-top: 10%;
+
 }
 
 .after_submit{

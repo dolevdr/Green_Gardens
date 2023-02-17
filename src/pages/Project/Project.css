@@ -1,7 +1,7 @@
 @media screen and (max-width: 1500000000px) {
     .headlines{
-        width:88vw;
-        font-size: 1.5vh;
+        width:85vw;
+        font-size: 2vh;
     }
     .img_loc, .img_above{
         position:relative;
@@ -37,7 +37,7 @@
 @media screen and (max-width: 900px) {
     .headlines{
         width: 83vw;
-        font-size: 1.7vh;
+        font-size: 1.7vw;
     }
     .img_loc, .img_above{
         position:relative;
@@ -49,7 +49,7 @@
 @media screen and (max-width: 750px) {
     .headlines{
         width: 80vw;
-        font-size: 1.5vh;
+        font-size: 2vw;
     }
     .img_loc, .img_above{
 
@@ -74,6 +74,12 @@
         width:35vw;
         height: 20vh;
     }
+}
+.project_container{
+    margin-top: 10vh;
+    display: flex;
+    font-size: 3vw;
+    width: 100vw;
 }
 .img_loc, .img_above{
     position:relative;
@@ -107,12 +113,7 @@ body{
 .spec_marg{
     margin-bottom: 1%;
 }
-.project_container{
-    margin-top: 10vh;
-    display: flex;
-    font-size: 2vh;
-    width: 100vw;
-}
+
 
 .subjects{
     position: relative;

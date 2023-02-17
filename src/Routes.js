@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
@@ -25,6 +25,7 @@ const Routing = () => {
       <Route path={routes.projects.geulim} element={<Project name={proj_names.geulim} text={"על הפרוייקט"} />} />
       <Route path={routes.projects.meshahrerim} element={<Project name={proj_names.meshahrerim} text={"על הפרוייקט"} />} />
       <Route path={routes.projects.haalia} element={<Project name={proj_names.haalia} text={"על הפרוייקט"} />} />
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
   );
 };

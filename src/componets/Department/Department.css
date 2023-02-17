@@ -5,7 +5,7 @@
         font-size: 1vw;
     }
 }
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 650px) {
     .Cont{
         width: 23vw;
         height: 45vh;
@@ -13,7 +13,7 @@
     }
     
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .Cont{
         width: 33vw;
         height: 50vh;
@@ -21,7 +21,7 @@
     }
     
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 400px) {
     .Cont{
         width: 45vw;
         height: 47vh;

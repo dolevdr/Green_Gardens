@@ -1,3 +1,132 @@
+@media screen and (max-width: 4000000px) {
+    .ourproj_contain{
+        width:85vw;
+        height:70vh;
+        font-size:1vw;
+        margin-bottom: 5%;
+    
+    }
+    .text_ourproj{
+        font-size: 1vw;
+    }
+    .img_logo{
+        width:35%;
+        height:40%;
+    }
+}
+@media screen and (max-width: 4000px) {
+    .ourproj_contain{
+        width:85vw;
+        height:60vh;
+        font-size:1.7vw;
+        margin-bottom: 5%;
+    
+    }
+    .text_ourproj{
+        font-size: 1.7vw;
+    }
+    .img_logo{
+        width:35%;
+        height:30%;
+    }
+}
+@media screen and (max-width: 3000px) {
+    .ourproj_contain{
+        width:85vw;
+        height:40vh;
+        font-size:1.5vw;
+        margin-bottom: 5%;
+    
+    }
+    .text_ourproj{
+        font-size: 1.5vw;
+    }
+    .img_logo{
+        width:35%;
+        height:35%;
+    }
+}
+@media screen and (max-width: 2500px) {
+    .ourproj_contain{
+        width:85vw;
+        height:35vh;
+        font-size:1.5vw;
+        margin-bottom: 5%;
+    
+    }
+    .text_ourproj{
+        font-size: 1.5vw;
+    }
+    .img_logo{
+        width:35%;
+        height:35%;
+    }
+}
+@media screen and (max-width: 2000px) {
+    .ourproj_contain{
+        width:85vw;
+        height:30vh;
+        font-size:2vw;
+        margin-bottom: 5%;
+    
+    }
+    .text_ourproj{
+        font-size: 2vw;
+    }
+    .img_logo{
+        width:40%;
+        height:30%;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .ourproj_contain{
+        width:85vw;
+        height:50vh;
+        font-size:1.5vw;
+        margin-bottom: 5%;
+    
+    }
+    .text_ourproj{
+        font-size: 1.5vw;
+    }
+    .img_logo{
+        width:30%;
+        height:30%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .ourproj_contain{
+        width:85vw;
+        height:40vh;
+        font-size:1.5vw;
+        margin-bottom: 10%;
+    
+    }
+    .text_ourproj{
+        font-size: 1.5vw;
+    }
+    .img_logo{
+        width:30%;
+        height:25%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .ourproj_contain{
+        width:80vw;
+        height:15vh;
+        font-size:3.5vw;
+        margin-bottom: 15%;
+    
+    }
+    .text_ourproj{
+        font-size: 4vw;
+    }
+    .img_logo{
+        width:60%;
+        height:20%;
+    }
+}
+
 .sh{
     float: right;
     height: 100%;
@@ -7,13 +136,6 @@
     width:100%;
 }
 
-.ourproj_contain{
-    width:70vw;
-    height:40vh;
-    margin-bottom: 4%;
-    font-size:2.3vh;
-
-}
 
 .img_ourproj{
     position:relative;
@@ -26,13 +148,10 @@
 .img_logo{
     position:relative;
     top:0px;
-    width:30%;
-    height:30%;
 }
 
 .text_ourproj{
     margin-top: 2%;
-    font-size:1.8vh;
 }
 
 .centerY{
