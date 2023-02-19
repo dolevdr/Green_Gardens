@@ -16,7 +16,7 @@ const About = () => {
   return (
     <div dir="rtl" className="about_container">
       <div className="company_name">
-        <h1>{company_name}</h1>
+        <h1 className="name_company">{company_name}</h1>
       </div>
       <div className="row">
         <div className=" col-8 f1 bg_darker rounded shadow-lg">
@@ -32,9 +32,6 @@ const About = () => {
           <b>{contact.address}:</b> {contact_val.address}
           <br />
           <b>{contact.owners}:</b> {contact_val.owners}
-          <br />
-          <b>{contact.phone}: </b>
-          {contact_val.phone}
           <br />
           <b>{contact.mail}: </b>
           {contact_val.mail}

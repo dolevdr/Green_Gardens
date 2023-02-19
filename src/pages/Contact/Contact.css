@@ -1,39 +1,84 @@
-.formText{
-    direction:rtl;
-    position: relative;
-    right: 30%;
-    top: 70px;
+@media screen and (max-width: 150000000000000px) {
+    .container_contact{
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+
+}
+@media screen and (max-width: 1000px) {
+    .container_contact{
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .container_contact{
+        margin-top: 20%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .container_contact{
+        margin-top: 30%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .container_contact{
+        margin-top: 40%;
+    }
 }
 h1{
-    font-size: 4vw;
+    font-size: 3vw;
 }
 .container_contact{
     height:100vh;
-    font-size: 1.7vw;
-    margin-top: 10%;
+    font-size: 1.3vw;
+    width: 100vw;
 
+}
+.label_value{
+    float: right;
+    clear: both;
+    margin-bottom: 1%;
+}
+
+.col-6{
+    width: 20%;
+    font-size: 1.4vw;
+}
+
+.feedback{
+    width: 20%;
+    margin-right: -3%;
+}
+
+.contacts_head{
+    margin-bottom: 5%;
+}
+
+.form_container{
+    position: relative;
+    right: 40%;
 }
 
 .after_submit{
     position:relative;
-    top:5%;
+    top:10%;
 }
 
 .company_logo{
-    margin-top: 15%;
-    position:relative;
-    right:1%;
+    margin-top: 5%;
+    /* position:relative;
+    right:1%; */
     font-size: larger;
 }
 
 
-.thanks{
+/* .thanks{
     position: relative;
     right: 4%;
-}
+} */
 .thanks_text{
-    position: relative;
-    right: 8%;
+    /* position: relative;
+    right: 8%; */
     font-size: larger;
 }
 

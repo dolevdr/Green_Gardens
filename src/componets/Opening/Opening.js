@@ -4,7 +4,7 @@ const Opening = (props) => {
   return (
     <div className="openingContainer">
       <img
-        className="open imgSize col-6 rounded shadow-lg"
+        className="open imgSize col-7 rounded shadow-lg"
         src={props.openImg}
         alt="nothing"
       />

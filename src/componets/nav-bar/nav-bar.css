@@ -1,10 +1,19 @@
+@media screen and (max-width: 600px) {
+    .nav_container, .nav_logo{
+        font-size: 3.5vw;
+        margin-left: 2vw;
+    }
+    
+}
+
+
 .shadow {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.nav_container{
+/* .nav_container{
     font-size: 1.2vw;
-}
+} */
 
 .nav{
     margin: 3%;
@@ -20,6 +29,5 @@
 
 .nav_logo{
     position: relative;
-    margin-left: 2vw;
-    font-size: 1.2vw;
+    cursor: pointer;
 }

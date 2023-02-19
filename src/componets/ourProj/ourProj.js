@@ -19,7 +19,7 @@ const OurProj = (props) => {
         <br />
         <div ><b>{props.name}</b></div>
         <div ><b>{props.address}</b></div>
-        <Button className="text_ourproj" size="sm" onClick={()=>{navigate(props.loc);window.scrollTo(0,0)}} variant="outline-success">{label}</Button>
+        <Button disabled={!props.active} className="text_ourproj" size="sm" onClick={()=>{navigate(props.loc);window.scrollTo(0,0)}} variant="outline-success">{label}</Button>
       </div>
     </div>
   );

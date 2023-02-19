@@ -2,14 +2,36 @@
     .owners_txt, .f2{
         font-size: 1.1vw;
     }
-    h1{
+    .owners h1{
         font-size: 1.5vw;
     }
     .company_name{
         margin-top:80px;
     }
+    .name_company{
+        font-size: 3vw;
+    }
     .about_container{
-        margin-bottom: 6%;
+        margin-bottom: 7vw;
+        
+    }
+    
+}
+@media screen and (max-width: 1600px) {
+    .owners_txt, .f2{
+        font-size: 1.1vw;
+    }
+    .owners h1{
+        font-size: 1.5vw;
+    }
+    .company_name{
+        margin-top:80px;
+    }
+    .name_company{
+        font-size: 2vw;
+    }
+    .about_container{
+        margin-bottom: 9vw;
         
     }
     
@@ -18,30 +40,113 @@
     .owners_txt, .f2{
         font-size: 1.1vw;
     }
-    h1{
+    .owners h1{
         font-size: 1.5vw;
     }
     .company_name{
         margin-top:80px;
     }
+    .name_company{
+        font-size: 3vw;
+    }
     .about_container{
-        margin-bottom: 5%;
+        margin-bottom: 11vw;
+        
+    }
+    
+}
+@media screen and (max-width: 1400px) {
+    .owners_txt, .f2{
+        font-size: 1.1vw;
+    }
+    .owners h1{
+        font-size: 1.5vw;
+    }
+    .company_name{
+        margin-top:80px;
+    }
+    .name_company{
+        font-size: 2.5vw;
+    }
+    .about_container{
+        margin-bottom: 13vw;
+        
+    }
+    
+}
+@media screen and (max-width: 1350px) {
+    .owners_txt, .f2{
+        font-size: 1.1vw;
+    }
+    .owners h1{
+        font-size: 1.5vw;
+    }
+    .company_name{
+        margin-top:80px;
+    }
+    .name_company{
+        font-size: 2vw;
+    }
+    .about_container{
+        margin-bottom: 14vw;
         
     }
     
 }
 @media screen and (max-width: 1300px) {
     .owners_txt, .f2{
-        font-size: 1.1vw;
+        font-size: 0.9vw;
     }
-    h1{
-        font-size: 1.5vw;
+    .owners h1{
+        font-size: 1.8vw;
     }
     .company_name{
         margin-top:80px;
     }
+    .name_company{
+        font-size: 2.5vw;
+    }
     .about_container{
-        margin-bottom: 8%;
+        margin-bottom: 16vw;
+        
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .owners_txt, .f2{
+        font-size: 0.9vw;
+    }
+    .owners h1{
+        font-size: 1.8vw;
+    }
+    .company_name{
+        margin-top:80px;
+    }
+    .name_company{
+        font-size: 2.5vw;
+    }
+    .about_container{
+        margin-bottom: 12vw;
+        
+    }
+    
+}
+@media screen and (max-width: 1100px) {
+    .owners_txt, .f2{
+        font-size: 1.2vw;
+    }
+    .owners h1{
+        font-size: 2vw;
+    }
+    .company_name{
+        margin-top:60px;
+    }
+    .name_company{
+        font-size: 3vw;
+    }
+    .about_container{
+        margin-bottom: 17vw;
         
     }
     
@@ -50,14 +155,17 @@
     .owners_txt, .f2{
         font-size: 1.3vw;
     }
-    h1{
-        font-size: 1.8vw;
+    .owners h1{
+        font-size: 3vw;
     }
     .company_name{
         margin-top:60px;
     }
+    .name_company{
+        font-size: 3vw;
+    }
     .about_container{
-        margin-bottom: 22vh;
+        margin-bottom: 9vh;
         
     }
     
@@ -66,14 +174,36 @@
     .owners_txt, .f2{
         font-size: 1.5vw;
     }
-    h1{
-        font-size: 2vw;
+    .owners h1{
+        font-size: 3vw;
     }
     .company_name{
         margin-top:60px;
     }
+    .name_company{
+        font-size: 5vw;
+    }
     .about_container{
-        margin-bottom: 30vh;
+        margin-bottom: 20vh;
+        
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .owners_txt, .f2{
+        font-size: 1.5vw;
+    }
+    .owners h1{
+        font-size: 3vw;
+    }
+    .company_name{
+        margin-top:60px;
+    }
+    .name_company{
+        font-size: 5vw;
+    }
+    .about_container{
+        margin-bottom: 25vh;
         
     }
     
@@ -82,11 +212,33 @@
     .owners_txt, .f2{
         font-size: 2vw;
     }
-    h1{
-        font-size: 3vw;
+    .owners h1{
+        font-size: 5vw;
     }
     .company_name{
         margin-top:60px;
+    }
+    .name_company{
+        font-size: 6vw;
+    }
+    .about_container{
+        margin-bottom: 18vh;
+        
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    .owners_txt, .f2{
+        font-size: 2vw;
+    }
+    .owners h1{
+        font-size: 5vw;
+    }
+    .company_name{
+        margin-top:60px;
+    }
+    .name_company{
+        font-size: 6vw;
     }
     .about_container{
         margin-bottom: 30vh;
@@ -98,11 +250,14 @@
     .owners_txt, .f2{
         font-size: 3vw;
     }
-    h1{
+    .owners h1{
         font-size: 6vw;
     }
     .company_name{
         margin-top:60px;
+    }
+    .name_company{
+        font-size: 6vw;
     }
     .about_container{
         margin-bottom: 20%;
@@ -119,7 +274,7 @@
 
 .about_container{ 
     /* height: 100%; */
-    min-height: 50vh;
+    min-height: 20vh;
 }
 
 
@@ -132,9 +287,9 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("../../sources/backImgAbout.jpeg");
+    background-image: url("../../sources/bg_about.jpeg");
     background-size: cover;
-    filter: brightness(1.2);
+    /* filter: brightness(1.0005); */
     z-index: -3;
 }
 .bg_darker{

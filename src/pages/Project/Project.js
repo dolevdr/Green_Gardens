@@ -13,6 +13,7 @@ const Project = (props) => {
   const subjects = Object.values(nav_subjects);
   const {
     name,
+    neighborhood,
     text,
     openImg,
     specification,
@@ -43,9 +44,14 @@ const Project = (props) => {
         <div className="headlines" id="1">
           <h1>{nav_subjects.explanation}</h1>
           <hr />
-          {text && <p>{text}</p>}
+          {text && <p  className="text_proj_page">{text}</p>}
         </div>
         <div className="headlines" id="2">
+          <h1>{nav_subjects.neighborhood}</h1>
+          <hr />
+          {neighborhood && <p  className="text_proj_page">{neighborhood}</p>}
+        </div>
+        <div className="headlines" id="3">
           <h1>{nav_subjects.specification}</h1>
           <hr />
           <div>
@@ -58,10 +64,10 @@ const Project = (props) => {
               ))}
           </div>
         </div>
-        <div className="headlines" id="3">
+        <div className="headlines" id="4">
           <h1>{nav_subjects.imaging}</h1>
           <br />
-          <div>
+          <div className="legend">
             <BsFillHouseFill /> בית <span className="home_icon"></span>
             <MdBalcony /> מרפסת <span className="home_icon"></span>
             <MdYard /> גינה
@@ -90,19 +96,19 @@ const Project = (props) => {
                 </div>
               ))}
         </div>
-        <div className="headlines" id="4">
+        <div className="headlines" id="5">
           <h1>{nav_subjects.above}</h1>
           <hr />
           <div className="text-center">
             {above && <img className="img_above" src={above} alt="nothing" />}
           </div>
         </div>
-        <div className="headlines" id="5">
+        <div className="headlines" id="6">
           <h1>{nav_subjects.imaging}</h1>
           <hr />
           {imaging && <Imaging images={imaging} />}
         </div>
-        <div className="headlines" id="6">
+        <div className="headlines" id="7">
           <h1>{nav_subjects.location}</h1>
           <hr />
           <div className="text-center">

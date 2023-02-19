@@ -8,6 +8,7 @@ export const proj_names = {
 
 export const nav_subjects = {
     explanation:"על הפרוייקט",
+    neighborhood:"על השכונה",
     specification:"מפרט",
     imaging:"דגמים",
     above:"מבט על",
