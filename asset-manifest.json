@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Green_Gardens/static/css/main.445773c3.css",
-    "main.js": "/Green_Gardens/static/js/main.3195e85a.js",
+    "main.css": "/Green_Gardens/static/css/main.e5cab34b.css",
+    "main.js": "/Green_Gardens/static/js/main.25bfab01.js",
     "static/media/Mabat Al.jpeg": "/Green_Gardens/static/media/Mabat Al.a807e61b304399ce27dc.jpeg",
     "static/media/Home.jpeg": "/Green_Gardens/static/media/Home.cf657feacaf9860d8e26.jpeg",
     "static/media/row.jpeg": "/Green_Gardens/static/media/row.7930ae0a97fe86d0d344.jpeg",
@@ -12,11 +12,11 @@
     "static/media/floor.jpeg": "/Green_Gardens/static/media/floor.ecbb614440f435ed3378.jpeg",
     "static/media/Geulim.jpeg": "/Green_Gardens/static/media/Geulim.3ed47c7b3143a0d8dfc4.jpeg",
     "static/media/Gan 4- A.jpeg": "/Green_Gardens/static/media/Gan 4- A.b0f3b95585fab7975ffd.jpeg",
-    "static/media/backImgAbout.jpeg": "/Green_Gardens/static/media/backImgAbout.7083f87e535b9db95d70.jpeg",
     "static/media/Meshahrerim.jpeg": "/Green_Gardens/static/media/Meshahrerim.47419b70b095aa4b2682.jpeg",
     "static/media/5 Rooms E - Penthouse + Pool.jpeg": "/Green_Gardens/static/media/5 Rooms E - Penthouse + Pool.e88b0310fb354b355de3.jpeg",
     "static/media/5 Rooms F - Penthouse + Pool.jpeg": "/Green_Gardens/static/media/5 Rooms F - Penthouse + Pool.a332d8f10b04d511876f.jpeg",
     "static/media/location.jpeg": "/Green_Gardens/static/media/location.0ea6abdd29befc1766a7.jpeg",
+    "static/media/bg_about.jpeg": "/Green_Gardens/static/media/bg_about.a80551cf8021dcc1d2b7.jpeg",
     "static/media/6 Rooms D - Penthouse.jpeg": "/Green_Gardens/static/media/6 Rooms D - Penthouse.790c7caa91f1e50e22ee.jpeg",
     "static/media/5 Rooms D1 - Penthouse.jpeg": "/Green_Gardens/static/media/5 Rooms D1 - Penthouse.82d36b87d742ce27f6b8.jpeg",
     "static/media/Halia.jpeg": "/Green_Gardens/static/media/Halia.21dbf980d0eee8fa80c4.jpeg",
@@ -26,11 +26,11 @@
     "static/media/4 Rooms A2.jpeg": "/Green_Gardens/static/media/4 Rooms A2.ee5c472b9519c185e049.jpeg",
     "static/media/3 Rooms C.jpeg": "/Green_Gardens/static/media/3 Rooms C.14d9e886c34ce1188e4f.jpeg",
     "index.html": "/Green_Gardens/index.html",
-    "main.445773c3.css.map": "/Green_Gardens/static/css/main.445773c3.css.map",
-    "main.3195e85a.js.map": "/Green_Gardens/static/js/main.3195e85a.js.map"
+    "main.e5cab34b.css.map": "/Green_Gardens/static/css/main.e5cab34b.css.map",
+    "main.25bfab01.js.map": "/Green_Gardens/static/js/main.25bfab01.js.map"
   },
   "entrypoints": [
-    "static/css/main.445773c3.css",
-    "static/js/main.3195e85a.js"
+    "static/css/main.e5cab34b.css",
+    "static/js/main.25bfab01.js"
   ]
 }
