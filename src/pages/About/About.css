@@ -12,7 +12,83 @@
         font-size: 3vw;
     }
     .about_container{
-        margin-bottom: 7vw;
+        margin-bottom: 24vw;
+        
+    }
+    
+}
+@media screen and (max-width: 2100px) {
+    .owners_txt, .f2{
+        font-size: 1.1vw;
+    }
+    .owners h1{
+        font-size: 1.5vw;
+    }
+    .company_name{
+        margin-top:80px;
+    }
+    .name_company{
+        font-size: 2vw;
+    }
+    .about_container{
+        margin-bottom: 21.7vw;
+        
+    }
+    
+}
+@media screen and (max-width: 2000px) {
+    .owners_txt, .f2{
+        font-size: 1.1vw;
+    }
+    .owners h1{
+        font-size: 1.5vw;
+    }
+    .company_name{
+        margin-top:80px;
+    }
+    .name_company{
+        font-size: 2vw;
+    }
+    .about_container{
+        margin-bottom: 21vw;
+        
+    }
+    
+}
+@media screen and (max-width: 1800px) {
+    .owners_txt, .f2{
+        font-size: 1.1vw;
+    }
+    .owners h1{
+        font-size: 1.5vw;
+    }
+    .company_name{
+        margin-top:80px;
+    }
+    .name_company{
+        font-size: 2vw;
+    }
+    .about_container{
+        margin-bottom: 19.7vw;
+        
+    }
+    
+}
+@media screen and (max-width: 1700px) {
+    .owners_txt, .f2{
+        font-size: 1.1vw;
+    }
+    .owners h1{
+        font-size: 1.5vw;
+    }
+    .company_name{
+        margin-top:80px;
+    }
+    .name_company{
+        font-size: 2vw;
+    }
+    .about_container{
+        margin-bottom: 19vw;
         
     }
     
@@ -31,7 +107,7 @@
         font-size: 2vw;
     }
     .about_container{
-        margin-bottom: 9vw;
+        margin-bottom: 18.2vw;
         
     }
     
@@ -50,7 +126,7 @@
         font-size: 3vw;
     }
     .about_container{
-        margin-bottom: 11vw;
+        margin-bottom: 17.5vw;
         
     }
     
@@ -69,7 +145,7 @@
         font-size: 2.5vw;
     }
     .about_container{
-        margin-bottom: 13vw;
+        margin-bottom: 17vw;
         
     }
     
@@ -88,7 +164,7 @@
         font-size: 2vw;
     }
     .about_container{
-        margin-bottom: 14vw;
+        margin-bottom: 17vw;
         
     }
     
@@ -146,7 +222,7 @@
         font-size: 3vw;
     }
     .about_container{
-        margin-bottom: 17vw;
+        margin-bottom: 30vw;
         
     }
     
@@ -165,7 +241,26 @@
         font-size: 3vw;
     }
     .about_container{
-        margin-bottom: 9vh;
+        margin-bottom: 95vw;
+        
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    .owners_txt, .f2{
+        font-size: 1.5vw;
+    }
+    .owners h1{
+        font-size: 3vw;
+    }
+    .company_name{
+        margin-top:60px;
+    }
+    .name_company{
+        font-size: 5vw;
+    }
+    .about_container{
+        margin-bottom: 80vw;
         
     }
     
@@ -184,7 +279,26 @@
         font-size: 5vw;
     }
     .about_container{
-        margin-bottom: 20vh;
+        margin-bottom: 90vw;
+        
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .owners_txt, .f2{
+        font-size: 1.5vw;
+    }
+    .owners h1{
+        font-size: 3vw;
+    }
+    .company_name{
+        margin-top:60px;
+    }
+    .name_company{
+        font-size: 5vw;
+    }
+    .about_container{
+        margin-bottom: 75vw;
         
     }
     
@@ -203,7 +317,7 @@
         font-size: 5vw;
     }
     .about_container{
-        margin-bottom: 25vh;
+        margin-bottom: 150vw;
         
     }
     
@@ -222,7 +336,7 @@
         font-size: 6vw;
     }
     .about_container{
-        margin-bottom: 18vh;
+        margin-bottom: 112vw;
         
     }
     
@@ -241,7 +355,7 @@
         font-size: 6vw;
     }
     .about_container{
-        margin-bottom: 30vh;
+        margin-bottom: 120vw;
         
     }
     
