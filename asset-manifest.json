@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Green_Gardens/static/css/main.2befd38c.css",
-    "main.js": "/Green_Gardens/static/js/main.25bfab01.js",
+    "main.css": "/Green_Gardens/static/css/main.486946f0.css",
+    "main.js": "/Green_Gardens/static/js/main.718e5e09.js",
     "static/media/Mabat Al.jpeg": "/Green_Gardens/static/media/Mabat Al.a807e61b304399ce27dc.jpeg",
     "static/media/Home.jpeg": "/Green_Gardens/static/media/Home.cf657feacaf9860d8e26.jpeg",
     "static/media/row.jpeg": "/Green_Gardens/static/media/row.7930ae0a97fe86d0d344.jpeg",
@@ -26,11 +26,11 @@
     "static/media/4 Rooms A2.jpeg": "/Green_Gardens/static/media/4 Rooms A2.ee5c472b9519c185e049.jpeg",
     "static/media/3 Rooms C.jpeg": "/Green_Gardens/static/media/3 Rooms C.14d9e886c34ce1188e4f.jpeg",
     "index.html": "/Green_Gardens/index.html",
-    "main.2befd38c.css.map": "/Green_Gardens/static/css/main.2befd38c.css.map",
-    "main.25bfab01.js.map": "/Green_Gardens/static/js/main.25bfab01.js.map"
+    "main.486946f0.css.map": "/Green_Gardens/static/css/main.486946f0.css.map",
+    "main.718e5e09.js.map": "/Green_Gardens/static/js/main.718e5e09.js.map"
   },
   "entrypoints": [
-    "static/css/main.2befd38c.css",
-    "static/js/main.25bfab01.js"
+    "static/css/main.486946f0.css",
+    "static/js/main.718e5e09.js"
   ]
 }
