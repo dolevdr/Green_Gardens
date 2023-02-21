@@ -112,7 +112,7 @@ const Contact = () => {
                 {email_contact.phone}
               </Form.Control.Feedback>
             )}
-            <Button className="label_value" variant="primary" type="submit">
+            <Button className="label_value butt_s" variant="primary" type="submit">
               שלח
             </Button>
           </Form.Group>

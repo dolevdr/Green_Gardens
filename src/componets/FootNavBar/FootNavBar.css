@@ -69,6 +69,12 @@
     margin: 1vh;
     right: 30%;
 }
+.po2{
+    width: 22%;
+    position: relative;
+    margin: 1vh;
+    right: 30%;
+}
 
 .po:hover{
     font-weight: bold;

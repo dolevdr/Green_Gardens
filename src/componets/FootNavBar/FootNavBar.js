@@ -20,13 +20,27 @@ const FootNavBar = (props) => {
           <div className="text-center contain_menu">
             {val === projects ? (
               Object.keys(headers[val]).map((value, index) => (
-                <p
-                  onClick={() => {navigate(routes[val][value]); window.scrollTo(0,0)}}
-                  className="po"
-                  key={`${ind}${index}`}
-                >
-                  {headers[val][value]}
-                </p>
+                <div>
+                  {value==='ganim' ?
+                  
+                  <p
+                    onClick={() => {navigate(routes[val][value]); window.scrollTo(0,0)}}
+                    className="po"
+                    key={`${ind}${index}`}
+                  >
+                    {headers[val][value]}
+                  </p>
+                  :
+                  <p
+                    className="po2"
+                    key={`${ind}${index}`}
+                  >
+                    {headers[val][value]}
+                  </p>
+
+                }
+
+                </div>
               ))
             ) : (
               <p onClick={() => {navigate(routes[val]); window.scrollTo(0,0)}} className="po" key={`${ind}`}>

@@ -1,36 +1,56 @@
 @media screen and (max-width: 150000000000000px) {
     .container_contact{
         margin-top: 8%;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
+        font-size: 1.5vw;
+    }
+    .col-6{
+        font-size: 1.5vw;
     }
 
 }
 @media screen and (max-width: 1000px) {
     .container_contact{
         margin-top: 10%;
+        font-size: 1.7vw;
+
+    }
+    .col-6{
+        font-size: 1.8vw;
     }
 }
 @media screen and (max-width: 700px) {
     .container_contact{
         margin-top: 20%;
+        font-size: 2vw;
+    }
+    .col-6{
+        font-size: 2vw;
     }
 }
 @media screen and (max-width: 500px) {
     .container_contact{
         margin-top: 30%;
+        font-size: 2.5vw;
+    }
+    .col-6{
+        font-size: 2.5vw;
     }
 }
 @media screen and (max-width: 300px) {
     .container_contact{
         margin-top: 40%;
+        font-size: 3vw;
+    }
+    .col-6{
+        font-size: 3vw;
     }
 }
 h1{
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 .container_contact{
     height:100vh;
-    font-size: 1.3vw;
     width: 100vw;
 
 }
@@ -40,9 +60,12 @@ h1{
     margin-bottom: 1%;
 }
 
-.col-6{
-    width: 20%;
+.butt_s{
     font-size: 1.4vw;
+}
+
+.col-6{
+    width: 30%;
 }
 
 .feedback{
