@@ -23,8 +23,8 @@ const Routing = () => {
       <Route path={routes.contact} element={<Contact />} />
       <Route path={routes.projects.ganim} element={<Project name={proj_names.green_garden} neighborhood={neighborhood} text={about} openImg={main} specification={ganim_specification} department={ganim_departments} logo={logo} open={open} above={mabatAl} imaging={imaging} location={loc}/> } />
       <Route path={routes.projects.geulim} element={<Project name={proj_names.geulim} text={"על הפרוייקט"} />} />
-      <Route path={routes.projects.meshahrerim} element={<Project name={proj_names.ground_floor} text={"על הפרוייקט"} />} />
-      <Route path={routes.projects.haalia} element={<Project name={proj_names.geulim_5} text={"על הפרוייקט"} />} />
+      <Route path={routes.projects.ground_floor} element={<Project name={proj_names.ground_floor} text={"על הפרוייקט"} />} />
+      <Route path={routes.projects.geulim_5} element={<Project name={proj_names.geulim_5} text={"על הפרוייקט"} />} />
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
   );

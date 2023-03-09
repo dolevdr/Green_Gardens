@@ -34,11 +34,11 @@ function NavBar(props) {
                 <NavDropdown.Item disabled onClick={()=>{navigate(routes.projects.geulim);window.scrollTo(0,0);}}>
                   {proj_names.geulim}
                 </NavDropdown.Item>
-                <NavDropdown.Item disabled onClick={()=>{navigate(routes.projects.meshahrerim);window.scrollTo(0,0)}}>
-                  {proj_names.meshahrerim}
+                <NavDropdown.Item disabled onClick={()=>{navigate(routes.projects.ground_floor);window.scrollTo(0,0)}}>
+                  {proj_names.ground_floor}
                 </NavDropdown.Item>
-                <NavDropdown.Item disabled onClick={()=>{navigate(routes.projects.haalia);window.scrollTo(0,0)}}>
-                  {proj_names.haalia}
+                <NavDropdown.Item disabled onClick={()=>{navigate(routes.projects.geulim_5);window.scrollTo(0,0)}}>
+                  {proj_names.geulim_5}
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link onClick={()=>{navigate(routes.about);window.scrollTo(0,0);setExpanded(false)}}>{headers.about}</Nav.Link>

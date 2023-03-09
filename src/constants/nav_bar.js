@@ -3,9 +3,9 @@ export const headers ={
     about:'אודות',
     projects:{
         ganim:'גנים ירוקים',
-        geulim:'גאולים',
-        meshahrerim:'משחררים',
-        haalia:'העלייה',
+        geulim:'גאולים 15',
+        ground_floor:'גנים ירוקים - צמודי קרקע',
+        geulim_5:'גאולים 5',
     },
     contact:'צור קשר'
 }
@@ -16,8 +16,8 @@ export const routes ={
     projects:{
         ganim:'/project/Green_Graden',
         geulim:'/project/Geulim',
-        meshahrerim:'/project/Meshahrerim',
-        haalia:'/project/Haalia',
+        ground_floor:'/project/ground_floor',
+        geulim_5:'/project/geulim_5',
     },
     contact:'/contact'
 }

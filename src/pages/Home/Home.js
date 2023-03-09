@@ -45,7 +45,7 @@ const Home = () => {
             logo={logo}
             name={proj_names.ground_floor}
             address={address}
-            loc={routes.projects.meshahrerim}
+            loc={routes.projects.ground_floor}
             active={false}
           />
           <OurProj
@@ -61,7 +61,7 @@ const Home = () => {
             logo={logo}
             name={proj_names.geulim_5}
             address={address}
-            loc={routes.projects.haalia}
+            loc={routes.projects.geulim_5}
             active={false}
           />
         </div>
