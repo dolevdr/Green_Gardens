@@ -1,36 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc0966d3.css",
-    "main.js": "/static/js/main.0076f807.js",
+    "main.css": "/static/css/main.e714d42d.css",
+    "main.js": "/static/js/main.6e7a6672.js",
     "static/media/Mabat Al.jpeg": "/static/media/Mabat Al.a807e61b304399ce27dc.jpeg",
     "static/media/Home.jpeg": "/static/media/Home.cf657feacaf9860d8e26.jpeg",
     "static/media/row.jpeg": "/static/media/row.7930ae0a97fe86d0d344.jpeg",
     "static/media/home_logo.png": "/static/media/home_logo.b1f44b77736cb935d073.png",
     "static/media/Ganim Yerukim.jpeg": "/static/media/Ganim Yerukim.6b457895c758909989d3.jpeg",
     "static/media/penthouse.jpeg": "/static/media/penthouse.7bb4c5fb0d7bcff7071f.jpeg",
+    "static/media/Meshahrerim.jpeg": "/static/media/Meshahrerim.41b3a9b88a33151165fc.jpeg",
     "static/media/Gan 5 - B.jpeg": "/static/media/Gan 5 - B.43291436e4562def94ed.jpeg",
     "static/media/floor.jpeg": "/static/media/floor.ecbb614440f435ed3378.jpeg",
     "static/media/Geulim.jpeg": "/static/media/Geulim.3ed47c7b3143a0d8dfc4.jpeg",
+    "static/media/Halia.jpeg": "/static/media/Halia.dc6e4ba6106e448092b6.jpeg",
     "static/media/Gan 4- A.jpeg": "/static/media/Gan 4- A.b0f3b95585fab7975ffd.jpeg",
-    "static/media/Meshahrerim.jpeg": "/static/media/Meshahrerim.47419b70b095aa4b2682.jpeg",
     "static/media/5 Rooms E - Penthouse + Pool.jpeg": "/static/media/5 Rooms E - Penthouse + Pool.e88b0310fb354b355de3.jpeg",
     "static/media/5 Rooms F - Penthouse + Pool.jpeg": "/static/media/5 Rooms F - Penthouse + Pool.a332d8f10b04d511876f.jpeg",
     "static/media/location.jpeg": "/static/media/location.0ea6abdd29befc1766a7.jpeg",
     "static/media/bg_about.jpeg": "/static/media/bg_about.a80551cf8021dcc1d2b7.jpeg",
     "static/media/6 Rooms D - Penthouse.jpeg": "/static/media/6 Rooms D - Penthouse.790c7caa91f1e50e22ee.jpeg",
     "static/media/5 Rooms D1 - Penthouse.jpeg": "/static/media/5 Rooms D1 - Penthouse.82d36b87d742ce27f6b8.jpeg",
-    "static/media/Halia.jpeg": "/static/media/Halia.21dbf980d0eee8fa80c4.jpeg",
     "static/media/5 Rooms B2.jpeg": "/static/media/5 Rooms B2.a64b8504dbfdef93b17a.jpeg",
     "static/media/4 Rooms A1.jpeg": "/static/media/4 Rooms A1.d18d4491d0b7a82baf5c.jpeg",
     "static/media/5 Rooms B1.jpeg": "/static/media/5 Rooms B1.7ffc2db3bc0c47494f9c.jpeg",
     "static/media/4 Rooms A2.jpeg": "/static/media/4 Rooms A2.ee5c472b9519c185e049.jpeg",
     "static/media/3 Rooms C.jpeg": "/static/media/3 Rooms C.14d9e886c34ce1188e4f.jpeg",
     "index.html": "/index.html",
-    "main.fc0966d3.css.map": "/static/css/main.fc0966d3.css.map",
-    "main.0076f807.js.map": "/static/js/main.0076f807.js.map"
+    "main.e714d42d.css.map": "/static/css/main.e714d42d.css.map",
+    "main.6e7a6672.js.map": "/static/js/main.6e7a6672.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc0966d3.css",
-    "static/js/main.0076f807.js"
+    "static/css/main.e714d42d.css",
+    "static/js/main.6e7a6672.js"
   ]
 }
