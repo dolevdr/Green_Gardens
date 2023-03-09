@@ -1,8 +1,8 @@
 export const proj_names = {
     green_garden:'גנים ירוקים',
     geulim:'הגאולים 15',
-    haalia:'הגאולים 5',
-    meshahrerim:'גנים ירוקים - צמודי קרקע',
+    geulim_5:'הגאולים 5',
+    ground_floor:'גנים ירוקים - צמודי קרקע',
 
 }
 

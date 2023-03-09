@@ -41,6 +41,14 @@ const Home = () => {
             active={true}
           />
           <OurProj
+            img={meshahrerim}
+            logo={logo}
+            name={proj_names.ground_floor}
+            address={address}
+            loc={routes.projects.meshahrerim}
+            active={false}
+          />
+          <OurProj
             img={geulim}
             logo={logo}
             name={proj_names.geulim}
@@ -49,17 +57,9 @@ const Home = () => {
             active={false}
           />
           <OurProj
-            img={meshahrerim}
-            logo={logo}
-            name={proj_names.meshahrerim}
-            address={address}
-            loc={routes.projects.meshahrerim}
-            active={false}
-          />
-          <OurProj
             img={halia}
             logo={logo}
-            name={proj_names.haalia}
+            name={proj_names.geulim_5}
             address={address}
             loc={routes.projects.haalia}
             active={false}

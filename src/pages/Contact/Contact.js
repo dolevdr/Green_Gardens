@@ -89,10 +89,10 @@ const Contact = () => {
             </Form.Label>
             <Form.Select name="poj_name" className="label_value col-6">
               <option value={proj_names.geulim}>{proj_names.geulim}</option>
-              <option value={proj_names.meshahrerim}>
-                {proj_names.meshahrerim}
+              <option value={proj_names.ground_floor}>
+                {proj_names.ground_floor}
               </option>
-              <option value={proj_names.haalia}>{proj_names.haalia}</option>
+              <option value={proj_names.geulim_5}>{proj_names.geulim_5}</option>
             </Form.Select>
             <Form.Label className="label_value col-1">
               {email_contact.phone}: <b className="require"> *</b>
