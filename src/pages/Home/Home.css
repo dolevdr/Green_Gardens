@@ -67,7 +67,7 @@
 @media screen and (max-width: 1500px) {
     .Home{
         height: 250vh;
-        margin-bottom:150%;
+        margin-bottom:180%;
         width: 99vw;
     }
     .contactUs{
@@ -89,7 +89,7 @@
 @media screen and (max-width: 1000px) {
     .Home{
         height: 250vh;
-        margin-bottom:150%;
+        margin-bottom:170%;
         width: 99vw;
     }
     .contactUs{
@@ -112,7 +112,7 @@
 @media screen and (max-width: 500px) {
     .Home{
         height: 150vh;
-        margin-bottom:130%;
+        margin-bottom:350%;
         width: 99vw;
     }
     .contactUs{
