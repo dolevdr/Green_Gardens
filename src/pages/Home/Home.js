@@ -17,7 +17,7 @@ const Home = () => {
   const ourProj = "הפרוייקטים שלנו";
   const address = `באר שבע`;
   const onClickProj = `לצפייה בפרוייקטים`;
-  const header_contact = 'השאירו פרטים וניצור עימכם קשר'
+  const header_contact = `השאירו פרטים וניצור \n עימכם קשר`;
 
   return (
     <div dir="rtl" className="Home">

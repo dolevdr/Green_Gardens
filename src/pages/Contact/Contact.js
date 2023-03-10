@@ -49,7 +49,7 @@ const Contact = (props) => {
     <div dir="rtl" className="row container_contact">
       {!submited ? (
         <Form className="form_container" ref={form} onSubmit={sendEmail} validated={validated} noValidate>
-          {(contact === 'צור קשר') ? <h1 className="contacts_head">{contact}</h1> : <h2 className="contacts_head">{contact}</h2> }
+          {(contact === 'צור קשר') ? <h1 className="contacts_head">{contact}</h1> : <h2 className="contacts_head2">{contact}</h2> }
           <Form.Group className="mb-3 col-12 text-center" controlId="formBasicEmail">
             <Form.Label className="label_value col-1">
               {email_contact.fullName}: <b className="require"> *</b>

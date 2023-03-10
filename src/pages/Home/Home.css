@@ -4,6 +4,10 @@
         margin-bottom:30%;
         width: 99vw;
     }
+    .contactUs{
+        margin-top: 80%;
+        
+    }
     .description_text{
         white-space: pre-line;
         font-size: 1.5vw;
@@ -21,6 +25,10 @@
         height: 250vh;
         margin-bottom:130%;
         width: 99vw;
+    }
+    .contactUs{
+        margin-top: 80%;
+        
     }
     .description_text{
         white-space: pre-line;
@@ -40,6 +48,10 @@
         margin-bottom:120%;
         width: 99vw;
     }
+    .contactUs{
+        margin-top: 80%;
+        
+    }
     .description_text{
         white-space: pre-line;
         font-size: 1.5vw;
@@ -55,8 +67,12 @@
 @media screen and (max-width: 1500px) {
     .Home{
         height: 250vh;
-        margin-bottom:130%;
+        margin-bottom:150%;
         width: 99vw;
+    }
+    .contactUs{
+        margin-top: 120%;
+        
     }
     .description_text{
         white-space: pre-line;
@@ -73,11 +89,16 @@
 @media screen and (max-width: 1000px) {
     .Home{
         height: 250vh;
-        margin-bottom:130%;
+        margin-bottom:150%;
         width: 99vw;
     }
-    .description_text{
+    .contactUs{
+        margin-top: 40%;
         white-space: pre-line;
+
+        
+    }
+    .description_text{
         font-size: 3vw;
     }
     .header_text, .home_txt{
@@ -91,8 +112,13 @@
 @media screen and (max-width: 500px) {
     .Home{
         height: 150vh;
-        margin-bottom:70%;
+        margin-bottom:130%;
         width: 99vw;
+    }
+    .contactUs{
+        margin-top: 40%;
+        height: 30%;
+        
     }
     .description_text{
         white-space: pre-line;
@@ -148,9 +174,7 @@ body{
     font-size: 1.5vw;
 }
 
-.contactUs{
-    margin-top: 80%;
-}
+
 
 .home_txt{
     color: gold;
