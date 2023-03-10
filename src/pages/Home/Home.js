@@ -8,15 +8,16 @@ import halia from "../../sources/Halia.jpeg";
 import { proj_names } from "../../constants/projects";
 import { routes } from "../../constants/nav_bar";
 import { Button } from "react-bootstrap";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
   const description = `א.ים ארץ ישראל ומלואה הינה קבוצת יזמות נדל"ן הפועלת בתחום הבנייה למגורים והתחדשות עירונית, ובנייה בתחום המסחר, התעסוקה והתעשייה למעלה משני עשורים. `;
-  // const header = ` א.ים ארץ ומלואה נדל"ן בע"מ (מקבוצת מגדים)`;
   const header = `לבחור את `;
   const home = `הבית`
   const ourProj = "הפרוייקטים שלנו";
   const address = `באר שבע`;
-  const onClickProj = `לצפייה בפרוייקטים`
+  const onClickProj = `לצפייה בפרוייקטים`;
+  const header_contact = 'השאירו פרטים וניצור עימכם קשר'
 
   return (
     <div dir="rtl" className="Home">
@@ -65,6 +66,9 @@ const Home = () => {
             active={false}
           />
         </div>
+      </div>
+      <div className="contactUs">
+        <Contact header={header_contact}/>
       </div>
     </div>
   );

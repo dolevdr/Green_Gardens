@@ -59,6 +59,10 @@ const FootNavBar = (props) => {
           {contact_val.address}
         </p>
         <p>
+          <b>{contact.phone}: </b>
+          {contact_val.phone}
+        </p>
+        <p>
           <b>{contact.mail}: </b>
           {contact_val.mail}
         </p>

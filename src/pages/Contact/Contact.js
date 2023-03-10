@@ -9,11 +9,11 @@ import { company_name } from "../../constants/company";
 import { service } from "../../constants/service";
 import Logo_img from "../../sources/Logo.png";
 
-const Contact = () => {
+const Contact = (props) => {
   const thanks = "תודה על יצירת הקשר";
   const thanks_text = `אחד מנציגנו יצור עמך קשר בהקדם.`;
   const error = `בבקשה תמלא `;
-  const contact = `צור קשר`;
+  const contact = props.header;
   const [submited, setSubmit] = useState(false);
 
   const form = useRef();
@@ -49,7 +49,7 @@ const Contact = () => {
     <div dir="rtl" className="row container_contact">
       {!submited ? (
         <Form className="form_container" ref={form} onSubmit={sendEmail} validated={validated} noValidate>
-          <h1 className="contacts_head">{contact}</h1>
+          {(contact === 'צור קשר') ? <h1 className="contacts_head">{contact}</h1> : <h2 className="contacts_head">{contact}</h2> }
           <Form.Group className="mb-3 col-12 text-center" controlId="formBasicEmail">
             <Form.Label className="label_value col-1">
               {email_contact.fullName}: <b className="require"> *</b>

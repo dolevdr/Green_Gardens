@@ -33,6 +33,8 @@ const About = () => {
           <br />
           <b>{contact.owners}:</b> {contact_val.owners}
           <br />
+          <b>{contact.phone}: </b>
+          {contact_val.phone}<br />
           <b>{contact.mail}: </b>
           {contact_val.mail}
         </div>

@@ -7,13 +7,15 @@ const yossi = {
 export const contact ={
     address:'כתובת',
     owners:'בעלים',
-    mail:'מייל'
+    mail:'מייל',
+    phone: 'טלפון מוקד מכירות'
 }
 
 export const contact_val = {
     address:'סמילנסקי 26, באר שבע',
     owners:'יוסי איטח ומאיר בן חמו',
-    mail:`מאיר - ${meir.mail}, יוסי - ${yossi.mail}`
+    mail:`מאיר - ${meir.mail}, יוסי - ${yossi.mail}`,
+    phone:`073-3963555`
 }
 
 export const email_contact={
@@ -23,3 +25,4 @@ export const email_contact={
     phone:'טלפון',
 }
 
+export const header = `צור קשר`;
