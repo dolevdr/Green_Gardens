@@ -10,7 +10,7 @@ import { useState } from "react";
 
 function NavBar(props) {
   const project = `פרוייקטים`;
-  const company = `א.ים ארץ ישראל ומלואה`;
+  const company = `א.ים ארץ ומלואה`;
   const navigate = useNavigate();
   const [expanded, setExpanded] = useState(false);
 
