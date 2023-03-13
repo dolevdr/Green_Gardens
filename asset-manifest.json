@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e2ed6db0.css",
-    "main.js": "/static/js/main.414b7669.js",
+    "main.js": "/static/js/main.318b1fef.js",
     "static/media/Mabat Al.jpeg": "/static/media/Mabat Al.a807e61b304399ce27dc.jpeg",
     "static/media/Home.jpeg": "/static/media/Home.cf657feacaf9860d8e26.jpeg",
     "static/media/row.jpeg": "/static/media/row.7930ae0a97fe86d0d344.jpeg",
@@ -27,10 +27,10 @@
     "static/media/3 Rooms C.jpeg": "/static/media/3 Rooms C.14d9e886c34ce1188e4f.jpeg",
     "index.html": "/index.html",
     "main.e2ed6db0.css.map": "/static/css/main.e2ed6db0.css.map",
-    "main.414b7669.js.map": "/static/js/main.414b7669.js.map"
+    "main.318b1fef.js.map": "/static/js/main.318b1fef.js.map"
   },
   "entrypoints": [
     "static/css/main.e2ed6db0.css",
-    "static/js/main.414b7669.js"
+    "static/js/main.318b1fef.js"
   ]
 }
