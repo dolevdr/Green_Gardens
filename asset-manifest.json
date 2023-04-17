@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.14d3f578.css",
-    "main.js": "/static/js/main.6e5c1c9d.js",
-    "static/media/video_calcalist.mp4": "/static/media/video_calcalist.0f1c9320f638e532517c.mp4",
+    "main.js": "/static/js/main.8f91f80f.js",
+    "static/media/video_calcalist.mp4": "/static/media/video_calcalist.933fef9d5748102d9b1a.mp4",
     "static/media/Mabat Al.jpeg": "/static/media/Mabat Al.a807e61b304399ce27dc.jpeg",
     "static/media/Home.jpeg": "/static/media/Home.cf657feacaf9860d8e26.jpeg",
     "static/media/row.jpeg": "/static/media/row.7930ae0a97fe86d0d344.jpeg",
@@ -28,10 +28,10 @@
     "static/media/3 Rooms C.jpeg": "/static/media/3 Rooms C.14d9e886c34ce1188e4f.jpeg",
     "index.html": "/index.html",
     "main.14d3f578.css.map": "/static/css/main.14d3f578.css.map",
-    "main.6e5c1c9d.js.map": "/static/js/main.6e5c1c9d.js.map"
+    "main.8f91f80f.js.map": "/static/js/main.8f91f80f.js.map"
   },
   "entrypoints": [
     "static/css/main.14d3f578.css",
-    "static/js/main.6e5c1c9d.js"
+    "static/js/main.8f91f80f.js"
   ]
 }
