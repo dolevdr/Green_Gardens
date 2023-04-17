@@ -45,10 +45,12 @@
     .col-6{
         font-size: 3vw;
     }
-    .contacts_head2{
-        font-size: 5vw;
-        white-space: pre-line;
-    }
+    
+}
+
+.contacts_head2{
+    font-size: 4vw;
+    white-space: pre-line;
 }
 h1{
     font-size: 3.5vw;
@@ -111,4 +113,9 @@ h1{
 
 .require{
     color: red;
+}
+
+body{
+    background-color:#F5F5F5;
+z-index: 0;
 }

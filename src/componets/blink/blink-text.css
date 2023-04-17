@@ -1,0 +1,16 @@
+@keyframes blink {
+  0% {
+    color: lightblue;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: darkblue;
+  }
+}
+
+.blink_container {
+  animation: blink 1s linear infinite;
+  cursor: pointer;
+}
