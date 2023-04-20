@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.14d3f578.css",
-    "main.js": "/static/js/main.8f91f80f.js",
+    "main.css": "/static/css/main.0dafcccb.css",
+    "main.js": "/static/js/main.078d4dd4.js",
     "static/media/video_calcalist.mp4": "/static/media/video_calcalist.933fef9d5748102d9b1a.mp4",
     "static/media/Mabat Al.jpeg": "/static/media/Mabat Al.a807e61b304399ce27dc.jpeg",
     "static/media/Home.jpeg": "/static/media/Home.cf657feacaf9860d8e26.jpeg",
@@ -25,13 +25,14 @@
     "static/media/4 Rooms A1.jpeg": "/static/media/4 Rooms A1.d18d4491d0b7a82baf5c.jpeg",
     "static/media/5 Rooms B1.jpeg": "/static/media/5 Rooms B1.7ffc2db3bc0c47494f9c.jpeg",
     "static/media/4 Rooms A2.jpeg": "/static/media/4 Rooms A2.ee5c472b9519c185e049.jpeg",
+    "static/media/calcalist.jpeg": "/static/media/calcalist.74a1b9cbfd94eaf60bf0.jpeg",
     "static/media/3 Rooms C.jpeg": "/static/media/3 Rooms C.14d9e886c34ce1188e4f.jpeg",
     "index.html": "/index.html",
-    "main.14d3f578.css.map": "/static/css/main.14d3f578.css.map",
-    "main.8f91f80f.js.map": "/static/js/main.8f91f80f.js.map"
+    "main.0dafcccb.css.map": "/static/css/main.0dafcccb.css.map",
+    "main.078d4dd4.js.map": "/static/js/main.078d4dd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.14d3f578.css",
-    "static/js/main.8f91f80f.js"
+    "static/css/main.0dafcccb.css",
+    "static/js/main.078d4dd4.js"
   ]
 }
