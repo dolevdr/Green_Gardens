@@ -20,16 +20,16 @@ function NavBar(props) {
   
   return (
     <div className="nav_container">
-      <Navbar expanded={expanded} bg="light" expand="lg" fixed="top" className="shadow" >
-        <Container>
+      <Navbar expanded={expanded} bg="light" expand="lg" fixed="top" className="shadow navFlex" >
+        <Container className="contan">
           {/* add navigations */}
+          
           <Navbar.Brand onClick={()=>{navigate(routes.home);window.scrollTo(0,0)}} ><div className="nav_logo">{company}<img className="image_logo" src={props.logo} alt='nothing' /></div></Navbar.Brand>
           <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav
               className="me-auto justify-content-end nav_bootstrap"
             >
-              <Nav.Link  onClick={()=>{window.scrollTo(0,0);setExpanded(false)}}><BlinkingText text={text} open={open} /></Nav.Link>
               <Nav.Link  onClick={()=>{navigate(routes.contact);window.scrollTo(0,0);setExpanded(false)}}><b>{headers.contact}</b></Nav.Link>
               <NavDropdown className="projects" title={project} id="basic-nav-dropdown">
                 <NavDropdown.Item onClick={()=>{navigate(routes.projects.ganim);window.scrollTo(0,0);setExpanded(false)}}>
@@ -50,6 +50,7 @@ function NavBar(props) {
             </Nav>
           </Navbar.Collapse>
         </Container>
+          <span className="blink" onClick={()=>{window.scrollTo(0,0);setExpanded(false)}}><BlinkingText text={text} open={open} /></span>
       </Navbar>
     </div>
   );

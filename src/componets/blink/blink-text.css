@@ -11,6 +11,10 @@
 }
 
 .blink_container {
-  animation: blink 1s linear infinite;
+  animation: blink 0.5s linear infinite;
   cursor: pointer;
+  font-size: 1.4rem;
+  /* white-space: nowrap; */
+
+  /* display: inline-block; */
 }

@@ -1,10 +1,21 @@
+@media screen and (max-width: 160000px) {
+    .contan{
+        margin-right: 20%;
+    }
+}
 @media screen and (max-width: 600px) {
     .nav_container, .nav_logo{
         font-size: 3.5vw;
-        margin-left: 2vw;
+        margin-left: 1vw;
+    }
+    .contan{
+        margin-right: 35%;
     }
     
 }
+
+
+
 .projects{
     font-weight: bold;
 }
@@ -16,7 +27,13 @@
 /* .nav_container{
     font-size: 1.2vw;
 } */
+.navFlex{
+    display: flex;
+    gap: 10%;
 
+    /* position: relative;
+    right: 10rem; */
+}
 .nav{
     margin: 3%;
 }
@@ -33,3 +50,11 @@
     position: relative;
     cursor: pointer;
 }
+
+.blink{
+    position: fixed;
+    right: 5%;
+}
+/* .contan{
+    margin-right: 25%;
+} */
