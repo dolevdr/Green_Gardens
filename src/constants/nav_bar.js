@@ -6,6 +6,7 @@ export const headers ={
         geulim:'גאולים 15',
         ground_floor:'גנים ירוקים - צמודי קרקע',
         geulim_5:'גאולים 5',
+        migdal:'פרוייקט במושבה מגדל (ליד הכינרת)',
     },
     contact:'צור קשר'
 }
@@ -18,6 +19,7 @@ export const routes ={
         geulim:'/project/Geulim',
         ground_floor:'/project/ground_floor',
         geulim_5:'/project/geulim_5',
+        migdal:'/project/migdal_kineret',
     },
     contact:'/contact'
 }
