@@ -1,113 +1,77 @@
+.contactUs{
+    margin-top: 10rem;
+}
+
 @media screen and (max-width: 2000000px) {
     .Home{
-        height: 250vh;
+        height: 150vh;
         margin-bottom:30%;
         width: 99vw;
     }
-    .contactUs{
-        margin-top: 80%;
-        
-    }
     .description_text{
         white-space: pre-line;
-        font-size: 1.5vw;
+        font-size: 1.5rem;
     }
     .header_text, .home_txt{
-        font-size: 6vw;
+        font-size: 4rem;
     }
-    .head{
-        font-size: 3vw;
-    }
-
 }
 @media screen and (max-width: 2000px) {
     .Home{
-        height: 250vh;
+        height: 150vh;
         margin-bottom:130%;
         width: 99vw;
     }
-    .contactUs{
-        margin-top: 80%;
-        
-    }
     .description_text{
         white-space: pre-line;
-        font-size: 1.5vw;
+        font-size: 1.5rem;
     }
     .header_text, .home_txt{
-        font-size: 6vw;
+        font-size: 4rem;
     }
-    .head{
-        font-size: 3vw;
-    }
-
 }
 @media screen and (max-width: 1700px) {
     .Home{
-        height: 250vh;
+        height: 150vh;
         margin-bottom:120%;
         width: 99vw;
     }
-    .contactUs{
-        margin-top: 80%;
-        
-    }
     .description_text{
         white-space: pre-line;
-        font-size: 1.5vw;
+        font-size: 1.5rem;
     }
     .header_text, .home_txt{
-        font-size: 6vw;
+        font-size: 4rem;
     }
-    .head{
-        font-size: 3vw;
-    }
-
 }
 @media screen and (max-width: 1500px) {
     .Home{
-        height: 250vh;
+        height: 150vh;
         margin-bottom:180%;
         width: 99vw;
-    }
-    .contactUs{
-        margin-top: 20%;
-        
-    }
+    }  
     .description_text{
         white-space: pre-line;
-        font-size: 1.5vw;
+        font-size: 1.5rem;
     }
     .header_text, .home_txt{
-        font-size: 3rem;
-    }
-    .head{
-        font-size: 3vw;
+        font-size: 4rem;
     }
 
 }
 @media screen and (max-width: 1000px) {
     .Home{
-        height: 250vh;
+        height: 170vh;
         margin-bottom:170%;
         width: 99vw;
     }
-    .contactUs{
-        margin-top: 45%;
-        white-space: pre-line;
-
-        
-    }
     .description_text{
-        font-size: 3vw;
+        white-space: pre-line;
+        font-size: 1rem;
     }
     .header_text, .home_txt{
-        font-size: 8vw;
+        font-size: 3.5rem;
     }
-    .head{
-        font-size: 8vw;
-    }
-
 }
 @media screen and (max-width: 500px) {
     .Home{
@@ -115,24 +79,14 @@
         margin-bottom:350%;
         width: 99vw;
     }
-    .contactUs{
-        margin-top: 150%;
-        height: 30%;
-        
-    }
     .description_text{
         white-space: pre-line;
-        font-size: 4vw;
+        font-size: 1rem;
     }
     .header_text, .home_txt{
-        font-size: 8vw;
+        font-size: 3.5rem;
     }
-    .head{
-        font-size: 8vw;
-    }
-
 }
-
 
 /* .Home{
     height: 350vh;
@@ -170,10 +124,13 @@
     font-size: 6vw;
 } */
 
+.head{
+    font-size: 2.7rem;
+}
 .nav_projects{
     background-color: goldenrod;
     color: white;
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
 
 
@@ -186,7 +143,7 @@
 .description{
     position:relative;
     top:2%;    
-    height: 40%;
+    height: 50%;
 }
 
 .description::before{
@@ -205,12 +162,10 @@
 .proj{
     position: relative;
     top: 5%;
-    height: 60%;
-    overflow: scroll;
 }
 
 .allProj{
-    position: relative;
-    right: 12% ;
-    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

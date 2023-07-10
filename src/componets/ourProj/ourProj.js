@@ -14,7 +14,6 @@ const OurProj = (props) => {
         />
       <div className='text-center centerY'>
         <img className="logo" src={props.logo} alt="" />
-        <br />
         <div ><b>{props.name}</b></div>
         <div ><b>{props.address}</b></div>
         <Button disabled={!props.active} className="text_ourproj" size="sm" onClick={()=>{navigate(props.loc);window.scrollTo(0,0)}} variant="outline-success">{label}</Button>
