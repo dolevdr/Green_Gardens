@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e6c0486.css",
-    "main.js": "/static/js/main.078d4dd4.js",
+    "main.css": "/static/css/main.e76ae885.css",
+    "main.js": "/static/js/main.bdc734c2.js",
     "static/media/video_calcalist.mp4": "/static/media/video_calcalist.933fef9d5748102d9b1a.mp4",
     "static/media/Mabat Al.jpeg": "/static/media/Mabat Al.a807e61b304399ce27dc.jpeg",
     "static/media/Home.jpeg": "/static/media/Home.cf657feacaf9860d8e26.jpeg",
@@ -20,6 +20,7 @@
     "static/media/bg_about.jpeg": "/static/media/bg_about.a80551cf8021dcc1d2b7.jpeg",
     "static/media/6 Rooms D - Penthouse.jpeg": "/static/media/6 Rooms D - Penthouse.790c7caa91f1e50e22ee.jpeg",
     "static/media/Meshahrerim.jpeg": "/static/media/Meshahrerim.bfec4537bc359c5d1016.jpeg",
+    "static/media/migdal_kineret.jpeg": "/static/media/migdal_kineret.27fd25495c934a7407e7.jpeg",
     "static/media/5 Rooms D1 - Penthouse.jpeg": "/static/media/5 Rooms D1 - Penthouse.82d36b87d742ce27f6b8.jpeg",
     "static/media/5 Rooms B2.jpeg": "/static/media/5 Rooms B2.a64b8504dbfdef93b17a.jpeg",
     "static/media/4 Rooms A1.jpeg": "/static/media/4 Rooms A1.d18d4491d0b7a82baf5c.jpeg",
@@ -28,11 +29,11 @@
     "static/media/calcalist.jpeg": "/static/media/calcalist.74a1b9cbfd94eaf60bf0.jpeg",
     "static/media/3 Rooms C.jpeg": "/static/media/3 Rooms C.14d9e886c34ce1188e4f.jpeg",
     "index.html": "/index.html",
-    "main.3e6c0486.css.map": "/static/css/main.3e6c0486.css.map",
-    "main.078d4dd4.js.map": "/static/js/main.078d4dd4.js.map"
+    "main.e76ae885.css.map": "/static/css/main.e76ae885.css.map",
+    "main.bdc734c2.js.map": "/static/js/main.bdc734c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e6c0486.css",
-    "static/js/main.078d4dd4.js"
+    "static/css/main.e76ae885.css",
+    "static/js/main.bdc734c2.js"
   ]
 }
