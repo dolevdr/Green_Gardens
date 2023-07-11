@@ -3,7 +3,7 @@ export const proj_names = {
     geulim:'הגאולים 15',
     geulim_5:'הגאולים 5',
     ground_floor:'גנים ירוקים - צמודי קרקע',
-    migdal:'פרויקט במושבה מגדל (על שפת הכינרת)'
+    migdal:'פרויקט במושבה מגדל'
 
 }
 

@@ -57,6 +57,14 @@ const Home = () => {
             active={true}
           />
           <OurProj
+            img={kineret}
+            logo={logo}
+            name={proj_names.migdal}
+            address={address_kineret}
+            loc={routes.projects.migdal}
+            active={false}
+          />
+          <OurProj
             img={meshahrerim}
             logo={logo}
             name={proj_names.ground_floor}
@@ -78,14 +86,6 @@ const Home = () => {
             name={proj_names.geulim_5}
             address={address}
             loc={routes.projects.geulim_5}
-            active={false}
-          />
-          <OurProj
-            img={kineret}
-            logo={logo}
-            name={proj_names.migdal}
-            address={address_kineret}
-            loc={routes.projects.migdal}
             active={false}
           />
         </div>
