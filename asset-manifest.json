@@ -1,8 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.e76ae885.css",
-    "main.js": "/static/js/main.bdc734c2.js",
+    "main.js": "/static/js/main.f8840e6a.js",
     "static/media/video_calcalist.mp4": "/static/media/video_calcalist.933fef9d5748102d9b1a.mp4",
+    "static/media/porch_kineret.png": "/static/media/porch_kineret.423610a625a191c9bbf6.png",
+    "static/media/pool_area_above_kineret.png": "/static/media/pool_area_above_kineret.72e74062eabb07fb6439.png",
+    "static/media/pool_area_kineret.png": "/static/media/pool_area_kineret.ef3a0e460a23f1bfe7da.png",
+    "static/media/Kineret_above.png": "/static/media/Kineret_above.8d9eedddcea9cf6bcf4a.png",
     "static/media/Mabat Al.jpeg": "/static/media/Mabat Al.a807e61b304399ce27dc.jpeg",
     "static/media/Home.jpeg": "/static/media/Home.cf657feacaf9860d8e26.jpeg",
     "static/media/row.jpeg": "/static/media/row.7930ae0a97fe86d0d344.jpeg",
@@ -30,10 +34,10 @@
     "static/media/3 Rooms C.jpeg": "/static/media/3 Rooms C.14d9e886c34ce1188e4f.jpeg",
     "index.html": "/index.html",
     "main.e76ae885.css.map": "/static/css/main.e76ae885.css.map",
-    "main.bdc734c2.js.map": "/static/js/main.bdc734c2.js.map"
+    "main.f8840e6a.js.map": "/static/js/main.f8840e6a.js.map"
   },
   "entrypoints": [
     "static/css/main.e76ae885.css",
-    "static/js/main.bdc734c2.js"
+    "static/js/main.f8840e6a.js"
   ]
 }
